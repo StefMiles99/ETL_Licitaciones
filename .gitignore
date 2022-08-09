@@ -1,0 +1,4 @@
+*.log
+/archivosAtom
+/nifi
+/nifi_registry
