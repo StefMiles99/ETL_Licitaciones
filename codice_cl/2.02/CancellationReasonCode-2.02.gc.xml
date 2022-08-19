@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+	=========================================================
+
+	Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+	=========================================================
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ===== Codigos de motivos de anulación de anuncios definidos por la DGPE  ===== -->
+		<!-- ===== Notice cancellation justification codes defined by the Spanish DGPE ===== -->
+		<ShortName>CancellationReasonCode</ShortName>
+		<LongName xml:lang="en">Notice Cancellation Reason Codes</LongName>
+		<LongName xml:lang="es">Códigos de motivos de anulación de anuncios</LongName>
+		<LongName Identifier="listID">DGPE 62</LongName>
+		<Version>2.02</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:CancellationReasonCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:CancellationReasonCode-2.02</CanonicalVersionUri>
+		<LocationUri>http://contrataciondelestado.es/codice/cl/2.02/CancellationReasonCode-2.02.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" xml:lang="es"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>1</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Decision of the Administrative Tribunal</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Resoluci&#243;n del Tribunal Administrativo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>2</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Notice issued by mistake</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Anuncio publicado por error</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>9999</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Other</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Otro</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

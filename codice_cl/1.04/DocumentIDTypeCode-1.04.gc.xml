@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+     =========================================================
+     -->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <!-- ===== Codigos definidos como Generic Code por la DGPE  ===== -->
+      <!-- ===== Codigos defined as Generic Code by the Spanish DGPE ===== -->
+      <ShortName>DocumentIDTypeCode</ShortName>
+      <LongName xml:lang="es">Lista de Códigos de Documentos de Identificación</LongName>
+      <LongName Identifier="listID">DGPE 27</LongName>
+      <Version>2007</Version>
+      <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:DocumentIDTypeCode</CanonicalUri>
+      <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:DocumentIDTypeCode-1.04</CanonicalVersionUri>
+      <LocationUri>http://contrataciondelestado.es/codice/cl/1.04/DocumentIDTypeCode-1.04.gc</LocationUri>
+      <Agency>
+         <LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Type="normalizedString"/>
+      </Column>
+      <Column Id="name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="nombre" Use="optional">
+         <ShortName>Nombre</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>CodeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>NIF</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>NIF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>CIF</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>CIF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>3</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>NIE</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>NIE</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

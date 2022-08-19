@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File StartingEventDescriptionCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>StartingEventDescriptionCode</ShortName>
+    <LongName>C&#243;digos de descripcion de inicio de eventos</LongName>
+    <Version>2.0</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:StartingEventDescriptionCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:StartingEventDescriptionCode-2.0</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.0/StartingEventDescriptionCode-2.0.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Desde la publicaci&#243;n del anuncio de licitaci&#243;n en el BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>From publication of the contract notice in National Journal</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

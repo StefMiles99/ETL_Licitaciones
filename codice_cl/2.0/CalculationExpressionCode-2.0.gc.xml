@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File CalculationExpressionCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>CalculationExpressionCode</ShortName>
+    <LongName>C&#243;digos de Expresiones para el calculo de valoraciones</LongName>
+    <Version>2.0</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:CalculationExpressionCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:CalculationExpressionCode-2.0</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.0/CalculationExpressionCode-2.0.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MAX</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Maximizador</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Maximize</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MIN </SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Minimizador</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Minimize</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MAXIDEAL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Maximador con fracci&#243;n del ideal</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Maximize with ideal fraction</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MINIDEAL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Minimizador con fracci&#243;n del ideal</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Minimize with ideal fraction</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MAXSUMA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Maximador con fracci&#243;n de la suma</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Maximize with fraction of the sum</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MINSUMA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Minimizador con fracci&#243;n de la suma</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Minimize with fraction of the sum</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MAXMAXIMO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Maximizador con fracci&#243;n del m&#225;ximo</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Maximize with fraction of the maximum</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MINMAXIMO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Minimizador con fracci&#243;n del m&#225;ximo</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Minimize with fraction of the maximum</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

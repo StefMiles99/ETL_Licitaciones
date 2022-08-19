@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File FundingProgramCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>FundingProgramCode</ShortName>
+    <LongName>C&#243;digos de Programas de financiaci&#243;n</LongName>
+    <Version>2.02</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:FundingProgramCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:FundingProgramCode-2.02</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.02/FundingProgramCode-2.02.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>EU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Financiaci&#243;n con fondos de la UE</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Financing with EU funds</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NAC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Subvencionado por un programa nacional</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>National Program Funded</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AUT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Subvencionado por un programa auton&#243;mico</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Autonomic Region Program Funded</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LOC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Subvencionado por un programa local</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Local Program Funded</SimpleValue>
+      </Value>
+    </Row>
+	<Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CPTI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Compra P&#250;blica de Tecnolog&#237;a Innovadora</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Innovative Technology</SimpleValue>
+      </Value>
+    </Row>
+	<Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CPP</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Compra P&#250;blica Precomercial</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Pre-commercial Public Procurement</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

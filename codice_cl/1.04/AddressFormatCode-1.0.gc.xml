@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   =========================================================
+   
+   Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+   
+   =========================================================
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>AddressFormatCode</ShortName>
+      <LongName xml:lang="en">Addres Format Code</LongName>
+      <LongName xml:lang="es">Códigos del formato de direcciones</LongName>
+      <LongName Identifier="listID">DGPE 23</LongName>
+      <Version>2007</Version>
+      <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:AddressFormatCode</CanonicalUri>
+      <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:AddressFormatCode-1.0</CanonicalVersionUri>
+      <LocationUri>http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc</LocationUri>
+      <Agency>
+         <LongName xml:lang="es">Dirección General del Patrimonio del Estado</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Type="normalizedString" xml:lang="en"/>
+      </Column>
+      <Column Id="name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Type="string" xml:lang="en"/>
+      </Column>
+      <Column Id="nombre" Use="optional">
+         <ShortName>Nombre</ShortName>
+         <Data Type="string" xml:lang="es"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>CodeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Formato Español</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Spanish Format</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

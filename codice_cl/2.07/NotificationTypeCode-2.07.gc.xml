@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File NotificationTypeCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>NotificationTypeCode</ShortName>
+    <LongName>C&#243;digos de Tipos de Comunicaciones</LongName>
+    <Version>2.07</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:NotificationTypeCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:NotificationTypeCode-2.07</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.07/NotificationTypeCode-2.07.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_IT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Invitación a licitar</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_IT_DC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Invitación a licitar en un diálogo competitivo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_IT_INI_DC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Invitación a licitar inicial en un diálogo competitivo</SimpleValue>
+      </Value>
+    </Row>
+	 <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_IT_OFER</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Invitación a presentar oferta final</SimpleValue>
+      </Value>
+    </Row>
+	 <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_QRN_PROV</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Comunicación de admisión/exclusión provisional</SimpleValue>
+      </Value>
+    </Row>
+	 <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_QRN_DEF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Comunicación de admisión/exclusión definitiva</SimpleValue>
+      </Value>
+    </Row>
+	 <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_AN_REN_DES</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Comunicación de renuncia o desistimiento</SimpleValue>
+      </Value>
+    </Row>
+	 <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AN_DOCREQ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Requerimiento de documentación al licitador mejor clasificado</SimpleValue>
+      </Value>
+    </Row>
+	 <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_AN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Notificación de adjudicación</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File CountryIdentificationCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>ExtensionFileCode</ShortName>
+    <LongName>Extensiones de fichero</LongName>
+    <Version>2.05</Version>
+    <CanonicalUri>urn:oasis:names:specification:ubl:codelist:gc:ExtensionFileCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:ExtensionFileCode-2.05</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.05/ExtensionFileCode-2.05.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PDF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Adobe (.pdf)</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Adobe (.pdf)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>WORD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Word (.doc, .docx,...)</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Word (.doc, .docx,...)</SimpleValue>
+      </Value>      
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ODT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>OpenOfficeWriter (.odt)</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>OpenOfficeWriter (.odt)</SimpleValue>
+      </Value>      
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TXT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Texto (.txt)</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>texto (.txt)</SimpleValue>
+      </Value>      
+    </Row>
+   	<Row>
+      <Value ColumnRef="code">
+        <SimpleValue>EXCEL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Excel (.xls, .xlsx,...)</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Excel (.xls, .xlsx,...)</SimpleValue>
+      </Value>      
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ODS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>OpenOfficeCalc (.ods)</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>OpenOfficeCalc (.ods)</SimpleValue>
+      </Value>      
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>XSLT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>XSL Transformations (.xslt)</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>XSL Transformations (.xslt)</SimpleValue>
+      </Value>      
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>XML</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>XML (.xml)</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>XML (.xml)</SimpleValue>
+      </Value>      
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Otros</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Otros</SimpleValue>
+      </Value>      
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

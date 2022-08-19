@@ -1,30 +1,20 @@
 import re
 from org.apache.commons.io import IOUtils
 from java.nio.charset import StandardCharsets
-from org.apache.nifi.processor.io import StreamCallback
+from org.apache.nifi.processor.io import OutputStreamCallback
 from org.python.core.util import StringUtil
 import xml.etree.ElementTree as etree
 import json
-import urllib2
 from org.python.core import codecs
 codecs.setDefaultEncoding('utf-8')
 
 
-def requestGet(url):
-
-  request = urllib2.Request(url)
-  try:
-      data = urllib2.urlopen(request)
-      return data.read()
-  except:
-      return None
 
 # define a callback to use
 
 
-def getListsFromURL(url):
+def getListsFromURL(responseList,filename):
     try:
-      responseList = requestGet(url)
       xmlList = etree.fromstring(responseList)
       xmlRows = xmlList.findall(".//SimpleCodeList/Row")
       newList = []
@@ -34,7 +24,7 @@ def getListsFromURL(url):
               "Value[@ColumnRef='nombre']/SimpleValue")[0].text
           newList.append(
             {
-                "url":url,
+                "url":filename,
                 "cod":code,
                 "valor":nombre
             }
@@ -48,23 +38,34 @@ def getListsFromURL(url):
                 "valor":""
             }
         ]
-
-class Callback(StreamCallback):
-    def __init__(self):
+class Callback(OutputStreamCallback):
+    def __init__(self,output_text):
+        self.output_text=output_text
         pass
 
-    def process(self, inputStream, outputStream):
-        text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
-        objectURIS=getListsFromURL(text)
-        output_text = json.dumps(list(objectURIS))
-        outputStream.write(StringUtil.toBytes(output_text))
+    def process(self, outputStream):
+        outputStream.write(StringUtil.toBytes(self.output_text))
 
 flowFile= session.get()
 
 if flowFile!= None:
-    flowFile=session.write(flowFile,Callback())
+    inputStream= session.read(flowFile);
+    
+    text = IOUtils.toString(inputStream, StandardCharsets.UTF_8)
+    
+    inputStream.close();
+
+    filename= flowFile.getAttribute("filename").replace(".xml","").replace(".txt","");
+
+    objectURIS=getListsFromURL(text,filename)
+    
+    output_text = json.dumps(list(objectURIS))
+    
+    flowFile=session.write(flowFile,Callback(output_text))
 
     session.transfer(flowFile,REL_SUCCESS)
+
+
 
     
     

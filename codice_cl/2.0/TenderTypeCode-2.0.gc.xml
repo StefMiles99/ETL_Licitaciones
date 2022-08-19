@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File TenderTypeCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>TenderTypeCode</ShortName>
+    <LongName>Tipos de Oferta</LongName>
+    <Version>2.0</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:TenderTypeCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:TenderTypeCode-2.0</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.0/TenderTypeCode-2.0.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TECH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>T&#233;cnica</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Technical</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ECO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Econ&#243;mica</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Economical</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ECOTECH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>T&#233;cnica y Econ&#243;mica</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Technical and economical</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

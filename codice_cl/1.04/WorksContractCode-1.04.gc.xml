@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+     =========================================================
+     -->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ===== Códigos para definir los tipos de contratos de obra, definidos por la DGPE  ===== -->
+		<!-- ===== Works Contract Codes defined by the Spanish DGPE ===== -->
+		<ShortName>WorksContractCode</ShortName>
+		<LongName xml:lang="en">Works Contract Code</LongName>
+		<LongName xml:lang="es">Código de Tipo de Contrato de Obras</LongName>
+		<LongName Identifier="listID">DGPE 12</LongName>
+		<Version>2006</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:WorksContractCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:WorksContractCode-1.04</CanonicalVersionUri>
+		<LocationUri>http://contrataciondelestado.es/codice/cl/1.04/WorksContractCode-1.04.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" xml:lang="es"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4500</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Construcción</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4510</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Preparación de obras</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4511</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Demolición de inmuebles y movimientos de tierras</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4512</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Perforaciones y sondeos</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4520</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Construcción general de inmuebles y obras de ingeniería
+				civil</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4521</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Construcción general de edificios y obras singulares de ingeniería
+					civil (puentes, túneles, etc.)</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4522</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Construcción de cubiertas y estructuras de cerramiento</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4523</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Construcción de autopistas,carreteras, campos de aterrizaje, vías
+					férreas y centros deportivos</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4524</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Obras hidráulicas</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4525</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Otras construcciones especializadas</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4530</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Instalación de edificios y obras</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4531</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Instalación eléctrica</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4532</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Aislamiento térmico, acústico y antivibratorio</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4533</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Fontanería</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4534</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Otras instalaciones de edificios y obras</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4540</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Acabado de edificios y obras</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4541</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Revocamiento</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4542</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Instalaciones de carpintería</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4543</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Revestimiento de suelos y paredes</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4544</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Pintura y acristalamiento</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4545</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Otros acabados de edificios y obras</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4550</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Alquiler de equipo de construcción o demolición con
+				operario</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

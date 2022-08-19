@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   =========================================================
+   
+   Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+   
+   =========================================================
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>LanguagePresentationCode</ShortName>
+      <LongName xml:lang="en">Language</LongName>
+	  <LongName xml:lang="es">Lenguaje de Presentación</LongName>
+		<LongName Identifier="listID">DGPE 29</LongName>
+		<Version>2007</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:LanguagePresentationCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:LanguagePresentationCode-1.04</CanonicalVersionUri>
+		<LocationUri>http://contrataciondelestado.es/codice/cl/1.04/LanguagePresentationCode-1.04.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Dirección General del Patrimonio del Estado</LongName>
+		</Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Type="normalizedString" xml:lang="en"/>
+      </Column>
+      <Column Id="name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Type="string" xml:lang="en"/>
+      </Column>
+	  <Column Id="nombre" Use="optional">
+         <ShortName>Nombre</ShortName>
+         <Data Type="string" xml:lang="es"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>CodeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>es</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Spanish</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Español</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ca</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Catalán</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Catalán</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>eu</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Euskera</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Euskera</SimpleValue>
+         </Value>
+      </Row>	  
+	        <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>gl</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Gallego</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Gallego</SimpleValue>
+         </Value>
+      </Row>
+     <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>en</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>English</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Ingles</SimpleValue>
+         </Value>
+      </Row>	  
+    </SimpleCodeList>
+</gc:CodeList>

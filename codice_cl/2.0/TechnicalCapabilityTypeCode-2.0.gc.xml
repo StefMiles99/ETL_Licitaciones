@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File TechnicalCapabilityTypeCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>TechnicalCapabilityTypeCode</ShortName>
+    <LongName>C&#243;digos de tipo de capacidad t&#233;cnica</LongName>
+    <Version>2.0</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:TechnicalCapabilityTypeCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:TechnicalCapabilityTypeCode-2.0</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>OSR-COMPTASK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Trabajos realizados</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Performed similar projects</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>OSR-TECH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>T&#233;cnicos o unidades t&#233;cnicas </SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Technical units</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>OXR-TITULOS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>T&#237;tulos acad&#233;micos y profesionales del empresario y directivos, o responsables de la ejecuci&#243;n </SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Academic and professionals</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>OXR-GESTMEDIOAMB</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Medidas de gesti&#243;n medioambiental</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Environmental measures</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>OXR-PLANTILLA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Plantilla media anual</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Average staff</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>OXR-MEDIOS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Maquinaria, material y equipo t&#233;cnico para la ejecuci&#243;n del contrato</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Machinery, material and technical equipment to perform the project</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>XSR-CALIDAD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones t&#233;cnicas y medidas para garantizar la calidad</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Technical instalations and measures to guarantee the quality</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>XSR-CONTROL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Control por la entidad contratante sobre la capacidad del empresario</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Control measures on the capability of the tenderer</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>XSR-MUESTRAS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Muestras, descripciones y fotograf&#237;as de los productos a suministrar</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Samples, descriptions and pictures of the products to provide</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>XSX-CERTCALIDAD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Certificados de control de calidad expedidos por los institutos o servicios oficiales</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Quality control certificates</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>XXR-SUBCONT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Indicaci&#243;n de la parte del contrato que se pretende subcontratar</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Indicate which part of the contract is planned to be subcontracted</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ZZZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Otros</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Others</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

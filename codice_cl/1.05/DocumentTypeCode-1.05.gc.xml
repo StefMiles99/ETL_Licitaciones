@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   =========================================================
+   
+   Lista de códigos definida por la DGPE en el marco del proyecto PLACE
+   21/09/2009
+   
+   =========================================================
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>DocumentTypeCode</ShortName>
+      <LongName xml:lang="es">Codigos de Documentos Publicados</LongName>
+      <LongName xml:lang="en">Publish Documents</LongName>
+      <LongName Identifier="listID">DGPE 42</LongName>
+      <Version>1.05</Version>
+      <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:DocumentTypeCode</CanonicalUri>
+      <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:DocumentTypeCode-1.05</CanonicalVersionUri>
+      <LocationUri>http://contrataciondelestado.es/codice/cl/1.05/DocumentTypeCode-1.05.gc</LocationUri>
+      <Agency>
+         <LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Type="normalizedString" xml:lang="en"/>
+      </Column>
+      <Column Id="name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Type="string" xml:lang="en"/>
+      </Column>
+      <Column Id="nombre" Use="optional">
+         <ShortName>Nombre</ShortName>
+         <Data Type="string" xml:lang="es"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>CodeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+<!--<Row><Value ColumnRef="code"><SimpleValue>01</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento referenciado: PLACE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento referenciado: PLACE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>02</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento referenciado: Externo</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento referenciado: Externo</SimpleValue></Value></Row>
+-->
+<Row><Value ColumnRef="code"><SimpleValue>DOC_DESC</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento Descriptivo</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento Descriptivo</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_PIN_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Anuncio Previo publicado en DOUE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio Previo publicado en DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_PIN_BOE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Anuncio Previo publicado en  BOE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio Previo publicado en  BOE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_PIN_PLACE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Anuncio Previo publicado en  Plataforma</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio Previo publicado en  Plataforma</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CN_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Anuncio de Licitación publicado en DOUE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio de Licitación publicado en DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CN_BOE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Anuncio de Licitación publicado en BOE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio de Licitación publicado en BOE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CN_PLACE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Anuncio de Licitación publicado en Plataforma</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio de Licitación publicado en Plataforma</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CD_PLACE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Pliegos publicado en  Plataforma</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Pliegos publicado en  Plataforma</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CAN_PROV_PLACE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Adjudicación Provisional publicado en Plataforma</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Adjudicación Provisional publicado en Plataforma</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CAN_DEF_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Adjudicación Definitiva publicado en DOUE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Adjudicación Definitiva publicado en DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CAN_DEF_BOE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Adjudicación Definitiva publicado en BOE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Adjudicación Definitiva publicado en BOE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CAN_DEF_PLACE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Adjudicación Definitiva publicado en Plataforma</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Adjudicación Definitiva publicado en Plataforma</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_PIN_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Envío de Anuncio Previo al DOUE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Envío de Anuncio Previo al DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_CN_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Envío de Anuncio de Licitación al DOUE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Envío de Anuncio de Licitación al DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_CAN_PROV_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Envío de Anuncio de Adjudicación Provisional al DOUE</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Envío de Anuncio de Adjudicación Provisional al DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ACTA_ADJ</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Acta de Adjudicación</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Acta de Adjudicación</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ACTA_ADM_EXCL</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Acta de Admisión Exclusión</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Acta de Admisión Exclusión</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>DOC_PPT</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Pliego de Prescripciones Técnicas</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Pliego de Prescripciones Técnicas</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>DOC_PCAP</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Pliego de Cláusulas Administrativas</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Pliego de Cláusulas Administrativas</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>DOC_ADD_CD</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento Adicional de Pliegos</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento Adicional de Pliegos</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ITEM_SPEC</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Especificación de Producto</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Especificación de Producto</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ITEM_DESC</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Descripción de Producto</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Descripción de Producto</SimpleValue></Value></Row>
+
+ </SimpleCodeList>
+</gc:CodeList>

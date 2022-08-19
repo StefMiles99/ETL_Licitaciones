@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		CODICE2 Genericode File TenderingNoticeTypeCode
+		Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList
+  xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd"
+  xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>OJEU_PublicationStatusCode</ShortName>
+    <LongName>Códigos de estado de publicaciones en DOUE</LongName>
+    <Version>2.03</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:OJEU_PublicationStatusCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:OJEU_PublicationStatusCode-2.03</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.03/OJEU_PublicationStatusCode-2.03.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIADO_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio enviado al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ESPERANDO_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio enviado al DOUE, esperando acuse de recibo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUBLICADO_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio publicado en DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RECT_VACIA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rectificación vacía</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ERROR_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Error en el DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ERROR_DOUE_TEC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Error técnico enviando el anuncio al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENV</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio enviado</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>YA_PUB</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio ya publicado en DOUE</SimpleValue>
+      </Value>
+    </Row>
+	</SimpleCodeList>
+</gc:CodeList>

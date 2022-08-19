@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+     =========================================================
+     -->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ===== Códigos para definir las posibles formas de constitución de una garantía, definidos por la DGPE  ===== -->
+		<!-- ===== Guarantee Constitution Codes defined by the Spanish DGPE ===== -->
+		<ShortName>GuaranteeConstitutionTypeCode</ShortName>
+		<LongName xml:lang="en">Guarantee Constitution Type Code</LongName>
+		<LongName xml:lang="es">Código de Forma de Constitución de una Garantía</LongName>
+		<LongName Identifier="listID">DGPE 15</LongName>
+		<Version>2.06</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:GuaranteeConstitutionTypeCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:GuaranteeConstitutionTypeCode-2.06</CanonicalVersionUri>
+		<LocationUri>http://contrataaciondelestado.es/codice/cl/2.06/GuaranteeConstitutionTypeCode-2.06.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" xml:lang="es"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>1</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Garantía en efectivo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>2</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Aval</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>3</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Valores anotados</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Contrato de seguro de caución</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>5</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Retención en el precio</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>6</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Depósito en efectivo</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

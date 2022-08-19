@@ -1,0 +1,5182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+          CODICE2 Genericode File RequiredBusinessProfileCode
+          Direccion General del Patrimonio del Estado
+          Códigos según RD 773/2015
+
+-->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>RequiredBusinessProfileCode</ShortName>
+    <LongName>Codigos de Clasificacion de Empresas</LongName>
+    <Version>2.05</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:RequiredBusinessProfileCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:RequiredBusinessProfileCode-2.05</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.05/RequiredBusinessProfileCode-2.05.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+     <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Movimiento de tierras y perforaciones.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Movimiento de tierras y perforaciones.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Movimiento de tierras y perforaciones.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Movimiento de tierras y perforaciones.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Movimiento de tierras y perforaciones.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A*-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Movimiento de tierras y perforaciones.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Desmontes y vaciados.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Desmontes y vaciados.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Desmontes y vaciados.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Desmontes y vaciados.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Desmontes y vaciados.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A1-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Desmontes y vaciados.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explanaciones.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explanaciones.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explanaciones.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explanaciones.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explanaciones.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A2-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explanaciones.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canteras.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canteras.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canteras.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canteras.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canteras.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A3-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canteras.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pozos y galerías.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pozos y galerías.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pozos y galerías.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pozos y galerías.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pozos y galerías.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A4-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pozos y galerías.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Túneles.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Túneles.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Túneles.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Túneles.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Túneles.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>A5-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Túneles.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Puentes, viaductos y grandes estructuras.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Puentes, viaductos y grandes estructuras.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Puentes, viaductos y grandes estructuras.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Puentes, viaductos y grandes estructuras.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Puentes, viaductos y grandes estructuras.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B*-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Puentes, viaductos y grandes estructuras.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fábrica u hormigón en masa.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fábrica u hormigón en masa.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fábrica u hormigón en masa.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fábrica u hormigón en masa.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fábrica u hormigón en masa.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B1-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fábrica u hormigón en masa.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>  
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón armado.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón armado.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón armado.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón armado.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón armado.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B2-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón armado.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón pretensado.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón pretensado.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón pretensado.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón pretensado.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón pretensado.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B3-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De hormigón pretensado.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Metálicos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Metálicos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Metálicos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Metálicos.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Metálicos.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>B4-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Metálicos.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Edificaciones(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Edificaciones(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Edificaciones(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Edificaciones(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Edificaciones(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C*-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Edificaciones(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Demoliciones.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Demoliciones.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Demoliciones.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Demoliciones.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Demoliciones.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C1-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Demoliciones.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras de fábrica u hormigón.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras de fábrica u hormigón.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras de fábrica u hormigón.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras de fábrica u hormigón.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras de fábrica u hormigón.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C2-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras de fábrica u hormigón.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras metálicas.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras metálicas.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras metálicas.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras metálicas.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras metálicas.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C3-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estructuras metálicas.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Albañilería, revocos y revestidos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Albañilería, revocos y revestidos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Albañilería, revocos y revestidos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Albañilería, revocos y revestidos.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Albañilería, revocos y revestidos.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C4-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Albañilería, revocos y revestidos.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cantería y marmolería.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cantería y marmolería.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cantería y marmolería.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cantería y marmolería.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cantería y marmolería.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C5-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cantería y marmolería.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pavimentos, solados y alicatados.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pavimentos, solados y alicatados.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pavimentos, solados y alicatados.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pavimentos, solados y alicatados.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C6-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pavimentos, solados y alicatados.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C6-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pavimentos, solados y alicatados.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C7-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Aislamientos e impermeabilizaciones.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C7-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Aislamientos e impermeabilizaciones.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C7-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Aislamientos e impermeabilizaciones.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C7-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Aislamientos e impermeabilizaciones.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C7-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Aislamientos e impermeabilizaciones.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C7-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Aislamientos e impermeabilizaciones.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C8-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería de madera.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C8-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería de madera.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C8-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería de madera.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C8-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería de madera.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C8-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería de madera.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C8-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería de madera.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C9-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería metálica.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C9-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería metálica.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C9-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería metálica.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C9-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería metálica.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C9-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería metálica.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>C9-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Carpintería metálica.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ferrocarriles(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ferrocarriles(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ferrocarriles(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ferrocarriles(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ferrocarriles(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D*-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ferrocarriles(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tendido de vías.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tendido de vías.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tendido de vías.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tendido de vías.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tendido de vías.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D1-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tendido de vías.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevados sobre carril o cable.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevados sobre carril o cable.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevados sobre carril o cable.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevados sobre carril o cable.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevados sobre carril o cable.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D2-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevados sobre carril o cable.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y enclavamientos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y enclavamientos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y enclavamientos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y enclavamientos.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y enclavamientos.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D3-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y enclavamientos.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Electrificación de ferrocarriles.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Electrificación de ferrocarriles.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Electrificación de ferrocarriles.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Electrificación de ferrocarriles.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Electrificación de ferrocarriles.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D4-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Electrificación de ferrocarriles.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras de ferrocarriles sin cualificación específica.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras de ferrocarriles sin cualificación específica.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras de ferrocarriles sin cualificación específica.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras de ferrocarriles sin cualificación específica.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras de ferrocarriles sin cualificación específica.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>D5-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras de ferrocarriles sin cualificación específica.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hidráulicas(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hidráulicas(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hidráulicas(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hidráulicas(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hidráulicas(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E*-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hidráulicas(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Abastecimientos y saneamientos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Abastecimientos y saneamientos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Abastecimientos y saneamientos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Abastecimientos y saneamientos.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Abastecimientos y saneamientos.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E1-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Abastecimientos y saneamientos.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Presas.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Presas.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Presas.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Presas.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Presas.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E2-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Presas.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canales.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canales.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canales.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canales.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canales.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E3-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canales.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Acequias y desagües.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Acequias y desagües.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Acequias y desagües.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Acequias y desagües.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Acequias y desagües.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E4-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Acequias y desagües.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Defensas de márgenes y encauzamientos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Defensas de márgenes y encauzamientos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Defensas de márgenes y encauzamientos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Defensas de márgenes y encauzamientos.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Defensas de márgenes y encauzamientos.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E5-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Defensas de márgenes y encauzamientos.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conducciones con tubería de presión de gran diámetro.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conducciones con tubería de presión de gran diámetro.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conducciones con tubería de presión de gran diámetro.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conducciones con tubería de presión de gran diámetro.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E6-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conducciones con tubería de presión de gran diámetro.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E6-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conducciones con tubería de presión de gran diámetro.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E7-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras hidráulicas sin cualificación específica.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E7-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras hidráulicas sin cualificación específica.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E7-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras hidráulicas sin cualificación específica.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E7-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras hidráulicas sin cualificación específica.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E7-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras hidráulicas sin cualificación específica.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>E7-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras hidráulicas sin cualificación específica.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Marítimas(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Marítimas(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Marítimas(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Marítimas(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Marítimas(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F*-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Marítimas(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dragados.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dragados.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dragados.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dragados.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dragados.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F1-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dragados.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Escolleras.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Escolleras.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Escolleras.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Escolleras.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Escolleras.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F2-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Escolleras.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con bloques de hormigón.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con bloques de hormigón.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con bloques de hormigón.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con bloques de hormigón.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con bloques de hormigón.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F3-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con bloques de hormigón.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con cajones de hormigón armado.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con cajones de hormigón armado.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con cajones de hormigón armado.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con cajones de hormigón armado.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con cajones de hormigón armado.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F4-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con cajones de hormigón armado.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con pilotes y tablestacas.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con pilotes y tablestacas.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con pilotes y tablestacas.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con pilotes y tablestacas.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con pilotes y tablestacas.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F5-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con pilotes y tablestacas.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Faros, radiofaros y señalizaciones marítimas.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Faros, radiofaros y señalizaciones marítimas.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Faros, radiofaros y señalizaciones marítimas.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Faros, radiofaros y señalizaciones marítimas.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F6-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Faros, radiofaros y señalizaciones marítimas.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F6-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Faros, radiofaros y señalizaciones marítimas.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F7-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras marítimas sin cualificación específica.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F7-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras marítimas sin cualificación específica.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F7-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras marítimas sin cualificación específica.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F7-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras marítimas sin cualificación específica.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F7-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras marítimas sin cualificación específica.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F7-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras marítimas sin cualificación específica.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F8-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Emisarios submarinos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F8-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Emisarios submarinos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F8-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Emisarios submarinos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F8-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Emisarios submarinos.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F8-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Emisarios submarinos.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>F8-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Emisarios submarinos.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Viales y pistas(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Viales y pistas(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Viales y pistas(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Viales y pistas(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Viales y pistas(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G*-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Viales y pistas(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Autopistas, autovías.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Autopistas, autovías.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Autopistas, autovías.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Autopistas, autovías.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Autopistas, autovías.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G1-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Autopistas, autovías.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pistas de aterrizaje.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pistas de aterrizaje.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pistas de aterrizaje.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pistas de aterrizaje.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pistas de aterrizaje.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G2-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pistas de aterrizaje.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de hormigón hidráulico.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de hormigón hidráulico.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de hormigón hidráulico.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de hormigón hidráulico.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de hormigón hidráulico.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G3-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de hormigón hidráulico.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de mezclas bituminosas.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de mezclas bituminosas.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de mezclas bituminosas.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de mezclas bituminosas.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de mezclas bituminosas.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G4-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Con firmes de mezclas bituminosas.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y balizamientos viales.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y balizamientos viales.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y balizamientos viales.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y balizamientos viales.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y balizamientos viales.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G5-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Señalizaciones y balizamientos viales.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras viales sin cualificación específica.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras viales sin cualificación específica.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras viales sin cualificación específica.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras viales sin cualificación específica.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G6-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras viales sin cualificación específica.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>G6-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Obras viales sin cualificación específica.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transportes de productos petrolíferos y gaseosos(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transportes de productos petrolíferos y gaseosos(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transportes de productos petrolíferos y gaseosos(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transportes de productos petrolíferos y gaseosos(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transportes de productos petrolíferos y gaseosos(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H*-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transportes de productos petrolíferos y gaseosos(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Oleoductos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Oleoductos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Oleoductos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Oleoductos.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Oleoductos.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H1-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Oleoductos.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gasoductos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gasoductos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gasoductos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gasoductos.(superior a 840.000 euros e inferior o igual a 2.400.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gasoductos.(superior a 2.400.000 euros e inferior o igual a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>H2-6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gasoductos.(superior a cinco millones de euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones eléctricas(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones eléctricas(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones eléctricas(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones eléctricas(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Alumbrados, iluminaciones y balizamientos luminosos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Alumbrados, iluminaciones y balizamientos luminosos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Alumbrados, iluminaciones y balizamientos luminosos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Alumbrados, iluminaciones y balizamientos luminosos.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centrales de producción de energía.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centrales de producción de energía.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centrales de producción de energía.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centrales de producción de energía.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Líneas eléctricas de transporte.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Líneas eléctricas de transporte.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Líneas eléctricas de transporte.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Líneas eléctricas de transporte.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Subestaciones.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Subestaciones.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Subestaciones.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Subestaciones.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centros de transformación y distribución en alta tensión.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centros de transformación y distribución en alta tensión.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centros de transformación y distribución en alta tensión.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centros de transformación y distribución en alta tensión.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Distribución en baja tensión.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Distribución en baja tensión.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Distribución en baja tensión.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Distribución en baja tensión.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I7-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Telecomunicaciones e instalaciones radioeléctricas.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I7-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Telecomunicaciones e instalaciones radioeléctricas.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I7-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Telecomunicaciones e instalaciones radioeléctricas.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I7-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Telecomunicaciones e instalaciones radioeléctricas.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I8-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones electrónicas.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I8-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones electrónicas.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I8-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones electrónicas.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I8-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones electrónicas.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I9-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones eléctricas sin cualificación específica.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I9-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones eléctricas sin cualificación específica.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I9-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones eléctricas sin cualificación específica.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>I9-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones eléctricas sin cualificación específica.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones mecánicas(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones mecánicas(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones mecánicas(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones mecánicas(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevadoras o transportadoras.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevadoras o transportadoras.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevadoras o transportadoras.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Elevadoras o transportadoras.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De ventilación, calefacción y climatización.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De ventilación, calefacción y climatización.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De ventilación, calefacción y climatización.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De ventilación, calefacción y climatización.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Frigoríficas.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Frigoríficas.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Frigoríficas.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Frigoríficas.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fontanería y sanitarias.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fontanería y sanitarias.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fontanería y sanitarias.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>De fontanería y sanitarias.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones mecánicas sin cualificación específica.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones mecánicas sin cualificación específica.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones mecánicas sin cualificación específica.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>J5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones mecánicas sin cualificación específica.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Especiales(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Especiales(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Especiales(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Especiales(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cimentaciones especiales.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cimentaciones especiales.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cimentaciones especiales.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cimentaciones especiales.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sondeos, inyecciones y pilotajes.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sondeos, inyecciones y pilotajes.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sondeos, inyecciones y pilotajes.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sondeos, inyecciones y pilotajes.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tablestacados.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tablestacados.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tablestacados.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tablestacados.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pinturas y metalizaciones.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pinturas y metalizaciones.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pinturas y metalizaciones.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pinturas y metalizaciones.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ornamentaciones y decoraciones.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ornamentaciones y decoraciones.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ornamentaciones y decoraciones.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ornamentaciones y decoraciones.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Jardinería y plantaciones.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Jardinería y plantaciones.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Jardinería y plantaciones.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Jardinería y plantaciones.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K7-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Restauración de bienes inmuebles histórico-artísticos.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K7-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Restauración de bienes inmuebles histórico-artísticos.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K7-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Restauración de bienes inmuebles histórico-artísticos.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K7-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Restauración de bienes inmuebles histórico-artísticos.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K8-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estaciones de tratamiento de aguas.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K8-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estaciones de tratamiento de aguas.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K8-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estaciones de tratamiento de aguas.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K8-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estaciones de tratamiento de aguas.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K9-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones contra incendios.(inferior o igual 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K9-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones contra incendios.(superior a 150.000 euros e inferior o igual a 360.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K9-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones contra incendios.(superior a 360.000 euros e inferior o igual a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>K9-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Instalaciones contra incendios.(superior a 840.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios administrativos(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios administrativos(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios administrativos(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios administrativos(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios administrativos(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios auxiliares para trabajos administrativos de archivo y similares.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios auxiliares para trabajos administrativos de archivo y similares.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios auxiliares para trabajos administrativos de archivo y similares.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios auxiliares para trabajos administrativos de archivo y similares.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios auxiliares para trabajos administrativos de archivo y similares.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Encuestas, toma de datos y servicios análogos.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Encuestas, toma de datos y servicios análogos.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Encuestas, toma de datos y servicios análogos.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Encuestas, toma de datos y servicios análogos.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Encuestas, toma de datos y servicios análogos.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Organización y promoción de congresos, ferias y exposiciones.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Organización y promoción de congresos, ferias y exposiciones.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Organización y promoción de congresos, ferias y exposiciones.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Organización y promoción de congresos, ferias y exposiciones.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Organización y promoción de congresos, ferias y exposiciones.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de portería, control de accesos e información al público.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de portería, control de accesos e información al público.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de portería, control de accesos e información al público.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de portería, control de accesos e información al público.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>L6-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de portería, control de accesos e información al público.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios especializados(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios especializados(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios especializados(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios especializados(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios especializados(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Higienización, desinfección, desinsectación y desratización.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Higienización, desinfección, desinsectación y desratización.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Higienización, desinfección, desinsectación y desratización.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Higienización, desinfección, desinsectación y desratización.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Higienización, desinfección, desinsectación y desratización.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de seguridad, custodia y protección.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de seguridad, custodia y protección.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de seguridad, custodia y protección.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de seguridad, custodia y protección.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de seguridad, custodia y protección.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Artes gráficas.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Artes gráficas.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Artes gráficas.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Artes gráficas.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Artes gráficas.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de bibliotecas, archivos y museos.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de bibliotecas, archivos y museos.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de bibliotecas, archivos y museos.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de bibliotecas, archivos y museos.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de bibliotecas, archivos y museos.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hostelería y servicios de comida.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hostelería y servicios de comida.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hostelería y servicios de comida.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hostelería y servicios de comida.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>M6-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hostelería y servicios de comida.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de conservación y mantenimiento de bienes inmuebles(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de carreteras, pistas, autopistas, autovías, calzadas y vías férreas.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de carreteras, pistas, autopistas, autovías, calzadas y vías férreas.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de carreteras, pistas, autopistas, autovías, calzadas y vías férreas.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de carreteras, pistas, autopistas, autovías, calzadas y vías férreas.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de carreteras, pistas, autopistas, autovías, calzadas y vías férreas.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de redes de agua y alcantarillado.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de redes de agua y alcantarillado.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de redes de agua y alcantarillado.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de redes de agua y alcantarillado.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de redes de agua y alcantarillado.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento integral de estaciones depuradoras.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento integral de estaciones depuradoras.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento integral de estaciones depuradoras.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento integral de estaciones depuradoras.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento integral de estaciones depuradoras.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de montes y jardines.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de montes y jardines.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de montes y jardines.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de montes y jardines.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>O6-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Conservación y mantenimiento de montes y jardines.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de equipos e instalaciones(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de equipos e instalaciones(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de equipos e instalaciones(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de equipos e instalaciones(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de equipos e instalaciones(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones eléctricas y electrónicas.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones eléctricas y electrónicas.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones eléctricas y electrónicas.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones eléctricas y electrónicas.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones eléctricas y electrónicas.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de fontanería, conducciones de agua y gas.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de fontanería, conducciones de agua y gas.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de fontanería, conducciones de agua y gas.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de fontanería, conducciones de agua y gas.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de fontanería, conducciones de agua y gas.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de calefacción y aire acondicionado.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de calefacción y aire acondicionado.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de calefacción y aire acondicionado.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de calefacción y aire acondicionado.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de calefacción y aire acondicionado.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de seguridad y contra incendios.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de seguridad y contra incendios.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de seguridad y contra incendios.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de seguridad y contra incendios.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de seguridad y contra incendios.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P7-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de aparatos elevadores y de traslación horizontal.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P7-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de aparatos elevadores y de traslación horizontal.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P7-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de aparatos elevadores y de traslación horizontal.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P7-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de aparatos elevadores y de traslación horizontal.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>P7-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones de aparatos elevadores y de traslación horizontal.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de maquinaria(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de maquinaria(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de maquinaria(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de maquinaria(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mantenimiento y reparación de maquinaria(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de maquinaria.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de maquinaria.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de maquinaria.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de maquinaria.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de maquinaria.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de vehículos.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de vehículos.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de vehículos.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de vehículos.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>Q2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de vehículos.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de transportes(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de transportes(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de transportes(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de transportes(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de transportes(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transporte en general.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transporte en general.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transporte en general.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transporte en general.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Transporte en general.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R2-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Traslado de enfermos por cualquier medio de transporte.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R2-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Traslado de enfermos por cualquier medio de transporte.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R2-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Traslado de enfermos por cualquier medio de transporte.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R2-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Traslado de enfermos por cualquier medio de transporte.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R2-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Traslado de enfermos por cualquier medio de transporte.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Recogida y transporte de residuos.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Recogida y transporte de residuos.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Recogida y transporte de residuos.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Recogida y transporte de residuos.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Recogida y transporte de residuos.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R6-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios aéreos.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R6-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios aéreos.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R6-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios aéreos.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R6-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios aéreos.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R6-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios aéreos.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R9-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mensajería, correspondencia y distribución.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R9-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mensajería, correspondencia y distribución.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R9-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mensajería, correspondencia y distribución.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R9-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mensajería, correspondencia y distribución.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>R9-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de mensajería, correspondencia y distribución.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de contenido(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de contenido(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de contenido(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de contenido(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de contenido(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de publicidad.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de publicidad.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de publicidad.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de publicidad.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de publicidad.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de traductores e intérpretes.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de traductores e intérpretes.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de traductores e intérpretes.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de traductores e intérpretes.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>T5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de traductores e intérpretes.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios generales(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios generales(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios generales(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios generales(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios generales(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U1-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de limpieza en general.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U1-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de limpieza en general.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U1-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de limpieza en general.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U1-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de limpieza en general.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U1-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de limpieza en general.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Agencias de viajes.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Agencias de viajes.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Agencias de viajes.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Agencias de viajes.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Agencias de viajes.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U8-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de información y asistencia telefónicas(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U8-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de información y asistencia telefónicas(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U8-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de información y asistencia telefónicas(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U8-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de información y asistencia telefónicas(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>U8-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de información y asistencia telefónicas(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V*-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de Tecnologías de la Información y las Comunicaciones(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V*-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de Tecnologías de la Información y las Comunicaciones(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V*-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de Tecnologías de la Información y las Comunicaciones(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V*-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de Tecnologías de la Información y las Comunicaciones(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V*-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de Tecnologías de la Información y las Comunicaciones(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V3-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones informáticas y de telecomunicaciones.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V3-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones informáticas y de telecomunicaciones.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V3-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones informáticas y de telecomunicaciones.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V3-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones informáticas y de telecomunicaciones.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V3-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mantenimiento y reparación de equipos e instalaciones informáticas y de telecomunicaciones.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V4-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de telecomunicaciones.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V4-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de telecomunicaciones.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V4-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de telecomunicaciones.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V4-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de telecomunicaciones.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V4-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Servicios de telecomunicaciones.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V5-1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explotación y control de sistemas informáticos e infraestructuras telemáticas.(inferior a 150.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V5-2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explotación y control de sistemas informáticos e infraestructuras telemáticas.(igual o superior a 150.000 euros e inferior a 300.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V5-3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explotación y control de sistemas informáticos e infraestructuras telemáticas.(igual o superior a 300.000 euros e inferior a 600.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V5-4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explotación y control de sistemas informáticos e infraestructuras telemáticas.(igual o superior a 600.000 euros e inferior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>V5-5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explotación y control de sistemas informáticos e infraestructuras telemáticas.(igual o superior a 1.200.000 euros)</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

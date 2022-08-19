@@ -50,13 +50,16 @@ if flowFile!= None:
     session.remove(flowFile)
     objectURIS=convertXMLToURIS(text)
     newflowFiles=[]
+    signal_event= flowFile.getAttribute("signal_event")
     for url in objectURIS:
       newFlowFile= session.create()
       callback = Callback(url)
       newFlowFile=session.write(newFlowFile,callback)
+      
       url= url.replace("/","")
       url= url.replace(":","")
       newFlowFile=session.putAttribute(newFlowFile,"filename",url+".text")
+      newFlowFile= session.putAttribute(newFlowFile,"signal_event",signal_event)
       newflowFiles.append(newFlowFile)
     for newFlowFile in newflowFiles:
       session.transfer(newFlowFile,REL_SUCCESS)

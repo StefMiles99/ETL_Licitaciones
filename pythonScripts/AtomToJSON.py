@@ -5,8 +5,12 @@ from org.apache.nifi.processor.io import StreamCallback
 from org.python.core.util import StringUtil
 import xml.etree.ElementTree as etree
 import json
+import re
 from org.python.core import codecs
 codecs.setDefaultEncoding('utf-8')
+
+def getFileName(url):
+    return re.sub(r'(.+)\/', "", url)
 
 
 def convertXMLToJSON(content):
@@ -51,7 +55,7 @@ def convertXMLToJSON(content):
     cod_estado = tag_estado.text
     estado = {
         "cod": cod_estado,
-        "url": uri_estado
+        "url": getFileName(uri_estado)
     }
 
     _LocatedContractingParty = _ContractFolderStatus.findall(
@@ -63,7 +67,7 @@ def convertXMLToJSON(content):
     uri_tipo_administracion = tag_tipo_administracion.attrib['listURI']
     tipo_administracion = {
         "cod": cod_tipo_administracion,
-        "url": uri_tipo_administracion
+        "url": getFileName(uri_tipo_administracion)
     }
 
     _Party = _LocatedContractingParty.findall(
@@ -95,7 +99,7 @@ def convertXMLToJSON(content):
         "cbc:TypeCode", namespaces=namespaces)[0]
     cod_tipo_contrato = tag_tipo_contrato.text
     uri_tipo_contrato = tag_tipo_contrato.attrib["listURI"]
-    tipo_contrato = {"cod": cod_tipo_contrato, "url": uri_tipo_contrato}
+    tipo_contrato = {"cod": cod_tipo_contrato, "url": getFileName(uri_tipo_contrato)}
 
     _BudgetAmount = _ProcurementProject.findall(
         "cac:BudgetAmount", namespaces=namespaces)[0]
@@ -114,7 +118,7 @@ def convertXMLToJSON(content):
 
     CPVTags = _ProcurementProject.findall(
         "cac:RequiredCommodityClassification/cbc:ItemClassificationCode", namespaces=namespaces)
-    cpv_lista = [{"id_lic": id_lic, "fecha_actualizacion": fecha_actualizacion, "url": CPVTag.attrib['listURI'], "cod":CPVTag.text}
+    cpv_lista = [{"id_lic": id_lic, "fecha_actualizacion": fecha_actualizacion, "url": getFileName(CPVTag.attrib['listURI']), "cod":CPVTag.text}
                  for CPVTag in CPVTags]
 
     if len(cpv_lista) == 0:
@@ -136,7 +140,7 @@ def convertXMLToJSON(content):
         uri_lugar_ejecucion = tag_lugar_ejecucion.attrib['listURI']
         lugar_ejecucion = {
             "cod": cod_lugar_ejecucion,
-            "url": uri_lugar_ejecucion
+            "url": getFileName(uri_lugar_ejecucion)
         }
     except:
         pass
@@ -156,7 +160,7 @@ def convertXMLToJSON(content):
         uri_tipo_procedimiento = tag_tipo_procedimiento.attrib["listURI"]
         tipo_procedimiento = {
             "cod": cod_tipo_procedimiento,
-            "url": uri_tipo_procedimiento
+            "url": getFileName(uri_tipo_procedimiento)
         }
     except:
         pass
@@ -172,7 +176,7 @@ def convertXMLToJSON(content):
         uri_tramitacion = tag_tramitacion.attrib["listURI"]
         tramitacion = {
             "cod": cod_tramitacion,
-            "url": uri_tramitacion
+            "url": getFileName(uri_tramitacion)
         }
     except:
         pass
@@ -189,7 +193,7 @@ def convertXMLToJSON(content):
 
         sistema_contratacion = {
             "cod": cod_sistema_contratacion,
-            "url": uri_sistema_contratacion
+            "url": getFileName(uri_sistema_contratacion)
         }
     except:
         pass
@@ -205,7 +209,7 @@ def convertXMLToJSON(content):
         uri_presentacion_oferta = tag_presentacion_oferta.attrib["listURI"]
         forma_presentacion_oferta = {
             "cod": cod_presentacion_oferta,
-            "url": uri_presentacion_oferta
+            "url": getFileName(uri_presentacion_oferta)
         }
     except:
         pass
@@ -250,7 +254,7 @@ def convertXMLToJSON(content):
         uri_funding_code = tag_funding_code.attrib["listURI"]
         funding_code = {
             "cod": cod_funding_code,
-            "url": uri_funding_code
+            "url": getFileName(uri_funding_code)
         }
         funding_program = _ContractFolderStatus.findall(
             "cac:TenderingTerms/cbc:FundingProgram")[0].text
@@ -306,7 +310,7 @@ def convertXMLToJSON(content):
             TagsCPVLotes = _loteProcurementProject.findall(
                 "cac:RequiredCommodityClassification/cbc:ItemClassificationCode", namespaces=namespaces)
 
-            cpv_lotes = [{"id_lic": id_lic, "id_lote": id_lote, "url": CPVTag.attrib['listURI'],
+            cpv_lotes = [{"id_lic": id_lic, "id_lote": id_lote, "fecha_actualizacion":fecha_actualizacion, "url": getFileName(CPVTag.attrib['listURI']),
                           "cod":CPVTag.text} for CPVTag in TagsCPVLotes]
 
             if len(cpv_lotes) == 0:
@@ -390,7 +394,7 @@ def convertXMLToJSON(content):
 
         resultado = {
             "cod": cod_resultado,
-            "url": uri_resultado
+            "url": getFileName(uri_resultado)
         }
 
         try:

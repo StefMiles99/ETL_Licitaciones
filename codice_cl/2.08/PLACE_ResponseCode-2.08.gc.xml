@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+     =========================================================
+     -->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ===== Codigos de respuesta para operaciones B2B definidos por la DGPE  ===== -->
+		<!-- ===== B2B response codes defined by the Spanish DGPE ===== -->
+		<ShortName>PLACE_ResponseCode</ShortName>
+		<LongName xml:lang="en">Respose Codes</LongName>
+		<LongName xml:lang="es">Códigos de respuesta.</LongName>
+		<LongName Identifier="listID">DGPE 66</LongName>
+		<Version>2.08</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:PLACE_ResponseCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:PLACE_ResponseCode-2.08</CanonicalVersionUri>
+		<LocationUri>http://contrataciondelestado.es/codice/cl/2.08/PLACE_ResponseCode-2.08.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" xml:lang="es"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>OK</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>OK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0010</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error en la especificación de los importes de la licitación al intentar publicar una adjudicación directa</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0020</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>BOE no disponible</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0030</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>DOUE no disponible</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0040</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Plataforma No Disponible</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0050</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error Interno</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0060</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Acción no permitida para este expediente</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0061</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Validación incorrecta</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0062</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Previsualización incorrecta</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0063</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Regla de transformación incorrecta</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0070</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>La licitación no existe</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0080</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error de publicación en el BOE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0081</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error de publicación en el DOUE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0082</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error de envío al DOUE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0090</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error en los parámetros del componente Publications</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0092</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Sólo se permite el envío a BOE o la anulación en BOE de los anuncios de Licitación y Formalización</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0100</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Servicio de Time Stamping No Disponible</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0110</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se permite el Tipo de Procedimiento para el Tipo de Órgano de Contratación especificicado</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0111</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Se ha indicado un valor incorrecto en el código del lugar de ejecución (CountrySubentityCode)</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0120</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>El usuario al que se quiere asignar la publicación no existe en el Órgano de Contratación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0121</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>El usuario al que se quiere asignar la publicación existe en la Plataforma pero no tiene el rol adecuado</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0130</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error en la interacción con el gestor documental</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0131</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error al guardar el documento en el gestor documental; Ya existe un documento con el mismo nombre en la licitación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0132</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>El nombre del fichero sólo puede contener caracteres alfanuméricos sin acento, guiones "-" y guiones bajos "_". La "ñ" no se considera carácter válido. La extensión del fichero debe tener 4 caracteres máximo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0133</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No es posible subir un documento de longitud cero</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0134</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Existe un bloqueo sobre esta licitación, para publicar el anuncio, libere el bloqueo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0135</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Anuncio desconocido</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0136</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error en el motivo de la anulación: NoticeCancellation</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0137</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Documento desconocido</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0138</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se puede publicar el anuncio porque es una rectificación sin cambios.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0139</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Licitación Bloqueada en espera de DOUE, no se puede realizar una rectificación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0200</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error de validación actualizacion en editarInformacionExpediente</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0205</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se ha identificado un anuncio de adjudicación con los lotes indicados</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0206</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error al tratar un anuncio de adjudicación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0207</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error al tratar un anuncio de formalización</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0208</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error al tratar un anuncio de modificación de contrato</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0210</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se pueden añadir a los sobres requisitos previos de participación que no han sido definidos previamente.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0211</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se pueden asociar criterios de adjudicación específicos de lote directamente con los sobres.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0212</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se pueden crear o actualizar comunicaciones sin especificar el tipo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0213</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error en la validación de sobres. No se puende dar de alta un sobre sin identificador o más de un sobre con el mismo identificador.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0214</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se puede publicar un Anuncio Previo con envío al BOE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0215</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Desde la entrada en vigor de la ley 9/2017, no se permite la creación de procedimientos negociado con publicidad, en su caso debe utilizar el procedimiento licitación con negociación.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0216</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Antes de la entrada en vigor de la ley 9/2017, no se permite la creación de procedimientos licitación con negociación, en su caso debe utilizar el procedimiento negociado con publicidad.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0217</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Desde la entrada en vigor de la ley 9/2017, no se permite la creación de contratos de 'Concesión de Obras Públicas', en su caso debe utilizar el contrato de 'Concesión de Obras'. </SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0218</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Antes de la entrada en vigor de la ley 9/2017, no se permite la creación de contratos de 'Concesión de Obras', en su caso debe utilizar el contrato 'Concesión de Obras Públicas'.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0219</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Desde la entrada en vigor de la ley 9/2017, no se permite la creación de contratos de 'Gestión de Servicios Públicos', en su caso debe utilizar el contrato de 'Concesión de Servicios'. </SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0220</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Antes de la entrada en vigor de la ley 9/2017, no se permite la creación de contratos de 'Concesión de Servicios', en su caso debe utilizar el contrato 'Gestión de Servicios Públicos'.</SimpleValue>
+			</Value>
+		</Row>
+		
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0222</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>La publicación de licitaciones electrónicas a través de la Plataforma de Contratación del Sector Público sólo está permitida utilizando los servicios de Gestión del Espacio Virtual de la licitación o a través de la propia Plataforma.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0223</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>La definición del nombre de los criterios de adjudicación es incorrecta, no puede contener saltos de línea ni tabulaciones.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0224</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se puede definir más de un criterio de adjudicación con el mismo nombre.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0225</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se puede asociar a un sobre un criterio de adjudicación que no está definido.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0226</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>La definición del nombre de los criterios de adjudicación específicos de lote es incorrecta, no puede contener saltos de línea ni tabulaciones.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0227</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se puede asociar el mismo criterio más de una vez en el sobre.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0229</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error en la definición del licitador 'nombreLicitador' con identificador 'identificadorLicitador'.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0230</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se ha definido el evento 'nombreEvento' referenciado en el sobre 'nombreSobre'.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0231</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>La definición de los eventos de apertura es incorrecta. No puede identificarse con un nombre vacío o repetido.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0232</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>El formato 'formatoDocumento' indicado en el documento 'nombreDocumento' que acredita el requisito no es válido.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0233</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>El formato 'formatoDocumento' indicado en el documento 'nombreDocumento' del sobre 'nombreSobre' no es válido.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0240</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error de Validación en email de licitador: Longitud máxima 220 caracteres</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0241</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error de Validación en email de licitador: El valor introducido no se corresponde con un correo electrónico</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0242</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Se han definido eventos no válidos para el tipo de procedimiento de la licitación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0243</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Se han definido sobres no válidos para el tipo de procedimiento de la licitación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0244</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Los tipos de contrato Servicios especiales sólo admiten la directiva 2014/23/UE.</SimpleValue>
+			</Value>
+		</Row>
+		
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0246</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Versión codice no soportada, utilice la CODICE2.05</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0247</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No es posible modificar el valor del componente: ProcurementLegislationDocumentReference. Para modificar el dato es necesario anular los anuncios publicados en DOUE.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0900</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>La operación no ha podido completarse normalmente. Vuelva a intentarlo pasados unos minutos o póngase en contacto con un administrador de la Plataforma.</SimpleValue>
+			</Value>
+		</Row>
+	
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1012</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se han pasado las validaciones iniciales. Problema con algún campo obligatorio.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1030</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>El anuncio que intenta publicar ya ha sido publicado con anterioridad. Si está seguro de que su anuncio es distinto compruebe que el identificador del mismo sea diferente al que envió primero</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1031</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Identificador de petición duplicado</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1040</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Plataforma no disponible</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1050</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>El órgano de contratación no está dado de alta en la Plataforma</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1051</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>El órgano de contratación está dado de alta en la Plataforma pero falló la comprobación de sus credenciales. Esto puede deberse a dos motivos: No se ha habilitádo para el OC la utilidad de publicación de anuncios de forma sistémica; o el certificado utilizado para firmar la petición no se corresponde con el que se utilizó para dar habilitar al OC la utilidad de interacción sistémica</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1060</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Fallo en la conexión con la base de datos</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1061</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Fallo en la base de datos al realizar la comprobación de la existencia del órgano de contratación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1062</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Fallo en la base de datos al realizar la comprobación de mensaje duplicado</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1063</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Fallo en la base de datos al guardar la información de la respuesta al intento de publicación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1064</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Fallo en la base de datos al guardar la información de los anexos en la publicación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1070</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Fallo en la interacción con LDAP</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1080</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Imposible acceder al nucleo funcional de la Plataforma</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE1313</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error al guardar el documento en el gestor documental. Ya existe un documento con el mismo nombre en la licitación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE2010</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Formato de mensaje incorrecto. Error al validar el esquema</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE2020</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error en las cabeceras de seguridad WS-Security: Firma inválida o certificado inválido.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE2030</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se ha podido entregar el mensaje al bus de integración</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE2040</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Plataforma no disponible</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE2050</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No se ha podido comprobar la validez del certificado. Fallo en la conexion con la Plataforma de @firma</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE2060</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error en las cabeceras de seguridad WS-Security: Certificado no registrado en la Plataforma de Contratación del Estado</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE2070</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Fallo en la conexión a Base de Datos al guardar el mensaje</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

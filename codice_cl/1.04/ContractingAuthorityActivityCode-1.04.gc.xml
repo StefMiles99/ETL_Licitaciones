@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+     =========================================================
+     -->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ====== Lista de Códigos basada en los formularios de SIMAP http://simap.eu.int/  ======== -->
+		<!-- ====== Based upon the SIMAP forms (2006) located at http://simap.eu.int/            ======== -->
+		<ShortName>ContractingAuthorityActivityCode</ShortName>
+		<LongName xml:lang="en">Contracting Authority Activity Type Code</LongName>
+		<LongName xml:lang="es">Código de Actividad del Órgano de Contratación</LongName>
+		<LongName Identifier="listID">DGPE 4</LongName>
+		<Version>2006</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:ContractingAuthorityActivityCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:ContractingAuthorityActivityCode-1.04</CanonicalVersionUri>
+		<LocationUri>http://contrataciondelestado.es/codice/cl/1.04/ContractingAuthorityActivityCode-1.04.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="es"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="normalizedString" xml:lang="es"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>1</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Justicia</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Justicia</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>2</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Defensa</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Defensa</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>3</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Seguridad Ciudadana e Instituciones Penitenciarias</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Seguridad Ciudadana e Instituciones Penitenciarias</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Política Exterior</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Política Exterior</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>5</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Pensiones</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Pensiones</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>6</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Otras Prestaciones Económicas</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Otras Prestaciones Económicas</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>7</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Servicios Sociales y Promoción Social</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Servicios Sociales y Promoción Social</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>8</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Fomento del Empleo</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Fomento del Empleo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>9</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Desempleo</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Desempleo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>10</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Acceso a la Vivienda y Fomento de la Edificación</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Acceso a la Vivienda y Fomento de la Edificación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>11</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Gestión y Administración de la Seguridad Social</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Gestión y Administración de la Seguridad Social</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>12</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Sanidad</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Sanidad</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>13</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Educación</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Educación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>14</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Cultura</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Cultura</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>15</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Agricultura, Pesca y Alimentación</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Agricultura, Pesca y Alimentación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>16</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Industria y Energía</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Industria y Energía</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>17</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Comercio, Turismo y Pymes</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Comercio, Turismo y Pymes</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>18</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Subvenciones al Transporte</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Subvenciones al Transporte</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>19</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Infraestructuras</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Infraestructuras</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>20</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Investigación, Desarrollo e Innovación</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Investigación, Desarrollo e Innovación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>21</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Otras Actuaciones de Carácter Económico</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Otras Actuaciones de Carácter Económico</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>22</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Servicios de Carácter General</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Servicios de Carácter General</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>23</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Administración Financiera y Tributaria</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Administración Financiera y Tributaria</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>24</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Transferencias a otras Administraciones Públicas</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Transferencias a otras Administraciones Públicas</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>25</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Deuda Pública</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Deuda Pública</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>26</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Medio Ambiente</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Medio Ambiente</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>27</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Interior</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Interior</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>28</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Economía y Hacienda</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Economía y Hacienda</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>29</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Ocio</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Ocio</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

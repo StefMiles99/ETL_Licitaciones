@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File TendererRequirementTypeCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Identification>
+		<ShortName>TendererRequirementTypeCode</ShortName>
+		<LongName>Tipos de requisitos previos de participaci&#243;n</LongName>
+		<Version>2.07</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:TendererRequirementTypeCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:TendererRequirementTypeCode-2.07</CanonicalVersionUri>
+		<LocationUri>http://contrataciondelestado.es/codice/cl/2.07/TendererRequirementTypeCode-2.07.gc</LocationUri>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" Lang="es"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" Lang="en"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>BUSINESSCLASS</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Clasificación</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>BusinessClassification</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>SPECIFIC</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Capacidad de contratar</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Specific</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>EMP</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Empleados</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>EmployeeCuantity</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>EXP</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Experiencia</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>OperatingYearsQuantity</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PERS</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Habilitación empresarial o profesional </SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>PersonalSituation</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>TECH</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Solvencia Técnica o Profesional </SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Technical</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>FIN</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Solvencia Económica o Financiera</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Financial</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>DESCR</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Descripción de criterios y documentos de solvencia</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Description</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>CCVV</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Requerimiento CCVV</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>CurriculaIndicator</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

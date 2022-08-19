@@ -1,0 +1,3670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File NUTS
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>NUTS</ShortName>
+    <LongName>Lista de C&#243;digos de Paises</LongName>
+    <Version>2009</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:NUTS</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:NUTS-2009</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>BELGIQUE-BELGI&#203;</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>R&#201;GION DE BRUXELLES-CAPITALE / BRUSSELS HOOFDSTEDELIJK GEWEST</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE10</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>R&#233;gion de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>VLAAMS GEWEST</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. Antwerpen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. Limburg (B)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE23</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. Oost-Vlaanderen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE24</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. Vlaams-Brabant</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE25</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. West-Vlaanderen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>R&#201;GION WALLONNE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE31</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. Brabant Wallon</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE32</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. Hainaut</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE33</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. Li&#232;ge</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE34</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. Luxembourg (B)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE35</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Prov. Namur</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>BULGARIA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SEVERNA I IZTOCHNA BULGARIA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG31</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Severozapaden</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG32</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Severen tsentralen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG33</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Severoiztochen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG34</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Yugoiztochen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>YUGOZAPADNA I YUZHNA TSENTRALNA BULGARIA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG41</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Yugozapaden</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG42</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Yuzhen tsentralen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#268;ESK&#193; REPUBLIKA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#268;ESK&#193; REPUBLIKA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ01</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Praha</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ02</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>St&#345;edn&#237; &#268;echy</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ03</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Jihoz&#225;pad</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ04</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Severoz&#225;pad</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ05</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Severov&#253;chod</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ06</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Jihov&#253;chod</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ07</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>St&#345;edn&#237; Morava</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ08</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Moravskoslezsko</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>DANMARK</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DK0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>DANMARK</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DK01</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hovedstaden</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DK02</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sj&#230;lland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DK03</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Syddanmark</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DK04</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Midtjylland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DK05</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nordjylland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>DEUTSCHLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>BADEN-W&#220;RTTEMBERG</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Stuttgart</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE12</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Karlsruhe</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE13</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Freiburg</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE14</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>T&#252;bingen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>BAYERN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Oberbayern</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Niederbayern</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE23</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Oberpfalz</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE24</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Oberfranken</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE25</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mittelfranken</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE26</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Unterfranken</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE27</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Schwaben</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>BERLIN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE30</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Berlin</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>BRANDENBURG</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE41</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Brandenburg - Nordost</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE42</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Brandenburg - S&#252;dwest</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>BREMEN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE50</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bremen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>HAMBURG</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE60</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hamburg</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE7</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>HESSEN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE71</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Darmstadt</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE72</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gie&#223;en</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE73</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kassel</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE8</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>MECKLENBURG-VORPOMMERN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE80</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mecklenburg-Vorpommern</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE9</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NIEDERSACHSEN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE91</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Braunschweig</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE92</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hannover</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE93</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>L&#252;neburg</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE94</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Weser-Ems</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NORDRHEIN-WESTFALEN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEA1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>D&#252;sseldorf</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEA2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>K&#246;ln</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEA3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>M&#252;nster</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEA4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Detmold</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEA5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Arnsberg</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEB</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>RHEINLAND-PFALZ</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEB1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Koblenz</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEB2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Trier</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEB3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rheinhessen-Pfalz</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SAARLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEC0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Saarland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DED</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SACHSEN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DED1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Chemnitz</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DED2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dresden</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DED3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Leipzig</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SACHSEN-ANHALT</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEE0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sachsen-Anhalt</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SCHLESWIG-HOLSTEIN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEF0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Schleswig-Holstein</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>TH&#220;RINGEN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DEG0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Th&#252;ringen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>EE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>EESTI</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>EE0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>EESTI</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>EE00</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Eesti</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>ELLADA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>VOREIA ELLADA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anatoliki Makedonia, Thraki</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR12</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kentriki Makedonia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR13</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dytiki Makedonia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR14</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Thessalia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>KENTRIKI ELLADA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ipeiros</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ionia Nisia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR23</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dytiki Ellada</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR24</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sterea Ellada</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR25</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Peloponnisos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>ATTIKI</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR30</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Attiki</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NISIA AIGAIOU, KRITI</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR41</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Voreio Aigaio</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR42</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Notio Aigaio</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR43</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kriti</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>ESPA&#209;A</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NOROESTE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Galicia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES111</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>A Coru&#241;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES112</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lugo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES113</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ourense</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES114</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pontevedra</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES12</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Principado de Asturias</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES120</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Asturias</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES13</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cantabria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES130</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cantabria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NORESTE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pa&#237;s Vasco</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES211</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#193;lava</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES212</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guip&#250;zcoa</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES213</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Vizcaya</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Comunidad Foral de Navarra</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES220</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Navarra</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES23</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>La Rioja</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES230</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>La Rioja</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES24</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Arag&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES241</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Huesca</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES242</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Teruel</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES243</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Zaragoza</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>COMUNIDAD DE MADRID</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES30</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Comunidad de Madrid</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES300</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Madrid</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>CENTRO (E)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES41</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Castilla y Le&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES411</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#193;vila</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES412</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Burgos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES413</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Le&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES414</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Palencia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES415</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Salamanca</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES416</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Segovia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES417</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Soria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES418</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Valladolid</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES419</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Zamora</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES42</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Castilla-La Mancha</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES421</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Albacete</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES422</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ciudad Real</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES423</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cuenca</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES424</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guadalajara</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES425</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Toledo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES43</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Extremadura</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES431</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Badajoz</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES432</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>C&#225;ceres</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>ESTE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES51</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Catalu&#241;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES511</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Barcelona</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES512</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Girona</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES513</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lleida</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES514</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tarragona</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES52</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Comunidad Valenciana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES521</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Alicante / Alacant</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES522</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Castell&#243;n / Castell&#243;</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES523</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Valencia / Val&#232;ncia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES53</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Illes Balears</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES531</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Eivissa y Formentera</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES532</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mallorca</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES533</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Menorca</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SUR</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES61</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Andaluc&#237;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES611</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Almer&#237;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES612</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>C&#225;diz</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES613</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>C&#243;rdoba</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES614</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Granada</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES615</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Huelva</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES616</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ja&#233;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES617</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>M&#225;laga</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES618</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sevilla</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES62</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Regi&#243;n de Murcia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES620</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Murcia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES63</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ciudad Aut&#243;noma de Ceuta</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES630</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ceuta</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES64</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ciudad Aut&#243;noma de Melilla</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES640</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Melilla</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES7</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>CANARIAS</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES70</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canarias</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES703</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>El Hierro</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES704</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Fuerteventura</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES705</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gran Canaria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES706</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>La Gomera</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES707</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>La Palma</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES708</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lanzarote</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES709</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tenerife</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>FRANCE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#206;LE DE FRANCE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR10</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#206;le de France</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>BASSIN PARISIEN</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Champagne-Ardenne</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Picardie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR23</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Haute-Normandie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR24</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centre</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR25</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Basse-Normandie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR26</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bourgogne</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NORD - PAS-DE-CALAIS</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR30</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nord - Pas-de-Calais</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>EST</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR41</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lorraine</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR42</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Alsace</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR43</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Franche-Comt&#233;</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>OUEST</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR51</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pays de la Loire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR52</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bretagne</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR53</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Poitou-Charentes</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SUD-OUEST</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR61</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Aquitaine</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR62</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Midi-Pyr&#233;n&#233;es</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR63</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Limousin</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR7</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>CENTRE-EST</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR71</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rh&#244;ne-Alpes</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR72</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Auvergne</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR8</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>M&#201;DITERRAN&#201;E</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR81</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Languedoc-Roussillon</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR82</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Provence-Alpes-C&#244;te d'Azur</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR83</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Corse</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR9</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>D&#201;PARTEMENTS D'OUTRE-MER</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR91</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guadeloupe</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR92</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Martinique</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR93</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guyane</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR94</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>R&#233;union</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>IRELAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IE0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>IRELAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IE01</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Border, Midland and Western</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IE02</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Southern and Eastern</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>ITALIA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NORD-OVEST</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITC1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Piemonte</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITC2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Valle d'Aosta/Vall&#233;e d'Aoste</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITC3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Liguria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITC4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lombardia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NORD-EST</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITD1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Provincia Autonoma Bolzano/Bozen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITD2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Provincia Autonoma Trento</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITD3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Veneto</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITD4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Friuli-Venezia Giulia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITD5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Emilia-Romagna</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>CENTRO (I)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITE1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Toscana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITE2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Umbria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITE3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Marche</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITE4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lazio</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SUD</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITF1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Abruzzo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITF2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Molise</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITF3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Campania</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITF4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Puglia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITF5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Basilicata</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITF6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Calabria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>ISOLE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITG1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sicilia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITG2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sardegna</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#922;&#933;&#928;&#929;&#927;&#931; / KIBRIS</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CY0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#922;&#933;&#928;&#929;&#927;&#931; / KIBRIS</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CY00</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#922;&#973;&#960;&#961;&#959;&#962; / K&#305;br&#305;s</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LV</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>LATVIJA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LV0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>LATVIJA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LV00</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Latvija</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>LIETUVA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LT0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>LIETUVA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LT00</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lietuva</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>LUXEMBOURG (GRAND-DUCH&#201;)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LU0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>LUXEMBOURG (GRAND-DUCH&#201;)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LU00</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Luxembourg (Grand-Duch&#233;)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>MAGYARORSZ&#193;G</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>K&#214;Z&#201;P-MAGYARORSZ&#193;G</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU10</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>K&#246;z&#233;p-Magyarorsz&#225;g</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>DUN&#193;NT&#218;L</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>K&#246;z&#233;p-Dun&#225;nt&#250;l</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nyugat-Dun&#225;nt&#250;l</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU23</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>D&#233;l-Dun&#225;nt&#250;l</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>ALF&#214;LD &#201;S &#201;SZAK</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU31</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#201;szak-Magyarorsz&#225;g</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU32</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#201;szak-Alf&#246;ld</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU33</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>D&#233;l-Alf&#246;ld</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>MALTA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MT0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>MALTA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MT00</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Malta</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NEDERLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NOORD-NEDERLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Groningen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL12</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Friesland (NL)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL13</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Drenthe</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>OOST-NEDERLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Overijssel</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gelderland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL23</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Flevoland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>WEST-NEDERLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL31</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Utrecht</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL32</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Noord-Holland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL33</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Zuid-Holland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL34</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Zeeland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>ZUID-NEDERLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL41</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Noord-Brabant</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL42</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Limburg (NL)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#214;STERREICH</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>OST&#214;STERREICH</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Burgenland (A)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT12</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nieder&#246;sterreich</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT13</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Wien</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>S&#220;D&#214;STERREICH</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>K&#228;rnten</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Steiermark</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>WEST&#214;STERREICH</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT31</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ober&#246;sterreich</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT32</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Salzburg</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT33</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tirol</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT34</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Vorarlberg</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>POLSKA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>REGION CENTRALNY</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#321;&#243;dzkie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL12</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mazowieckie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>REGION PO&#321;UDNIOWY</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ma&#322;opolskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#346;l&#261;skie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>REGION WSCHODNI</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL31</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lubelskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL32</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Podkarpackie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL33</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#346;wi&#281;tokrzyskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL34</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Podlaskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>REGION P&#211;&#321;NOCNO-ZACHODNI</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL41</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Wielkopolskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL42</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Zachodniopomorskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL43</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lubuskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>REGION PO&#321;UDNIOWO-ZACHODNI</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL51</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dolno&#347;l&#261;skie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL52</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Opolskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>REGION P&#211;&#321;NOCNY</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL61</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kujawsko-Pomorskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL62</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Warmi&#324;sko-Mazurskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL63</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pomorskie</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>PORTUGAL</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>CONTINENTE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Norte</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT15</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Algarve</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT16</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centro (P)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT17</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lisboa</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT18</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Alentejo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Regi&#227;o Aut&#243;noma dos A&#199;ORES</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT20</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Regi&#227;o Aut&#243;noma dos A&#231;ores</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Regi&#227;o Aut&#243;noma da MADEIRA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT30</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Regi&#227;o Aut&#243;noma da Madeira</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>ROMANIA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Macroregiunea unu</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nord-Vest</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO12</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Centru</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Macroregiunea doi</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nord-Est</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sud-Est</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Macroregiunea trei</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO31</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sud - Muntenia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO32</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bucure&#351;ti - Ilfov</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Macroregiunea patru</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO41</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sud-Vest Oltenia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO42</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Vest</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SLOVENIJA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SI0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SLOVENIJA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SI01</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Vzhodna Slovenija</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SI02</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Zahodna Slovenija</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SLOVENSK&#193; REPUBLIKA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SK0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SLOVENSK&#193; REPUBLIKA</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SK01</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bratislavsk&#253; kraj</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SK02</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Z&#225;padn&#233; Slovensko</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SK03</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Stredn&#233; Slovensko</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SK04</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>V&#253;chodn&#233; Slovensko</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SUOMI / FINLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FI1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>MANNER-SUOMI</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FI13</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>It&#228;-Suomi</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FI18</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Etel&#228;-Suomi</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FI19</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>L&#228;nsi-Suomi</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FI1A</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pohjois-Suomi</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FI2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#197;LAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FI20</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#197;land</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SVERIGE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#214;stra Sverige</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Stockholm</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE12</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#214;stra Mellansverige</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>S&#246;dra Sverige</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sm&#229;land med &#246;arna</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sydsverige</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE23</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>V&#228;stsverige</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Norra Sverige</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE31</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Norra Mellansverige</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE32</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mellersta Norrland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE33</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>&#214;vre Norrland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>UNITED KINGDOM</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NORTH EAST (ENGLAND)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKC1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tees Valley and Durham</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKC2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Northumberland and Tyne and Wear</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NORTH WEST (ENGLAND)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKD1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cumbria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKD2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cheshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKD3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Greater Manchester</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKD4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lancashire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKD5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Merseyside</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>YORKSHIRE AND THE HUMBER</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKE1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>East Yorkshire and Northern Lincolnshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKE2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>North Yorkshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKE3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>South Yorkshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKE4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>West Yorkshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>EAST MIDLANDS (ENGLAND)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKF1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Derbyshire and Nottinghamshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKF2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Leicestershire, Rutland and Northamptonshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKF3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lincolnshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>WEST MIDLANDS (ENGLAND)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKG1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Herefordshire, Worcestershire and Warwickshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKG2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Shropshire and Staffordshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKG3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>West Midlands</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>EAST OF ENGLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKH1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>East Anglia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKH2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bedfordshire and Hertfordshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKH3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Essex</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>LONDON</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKI1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Inner London</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKI2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Outer London</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKJ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SOUTH EAST (ENGLAND)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKJ1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Berkshire, Buckinghamshire and Oxfordshire</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKJ2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Surrey, East and West Sussex</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKJ3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hampshire and Isle of Wight</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKJ4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kent</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SOUTH WEST (ENGLAND)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKK1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gloucestershire, Wiltshire and Bristol/Bath area</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKK2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dorset and Somerset</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKK3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cornwall and Isles of Scilly</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKK4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Devon</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>WALES</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKL1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>West Wales and The Valleys</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKL2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>East Wales</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>SCOTLAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKM2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Eastern Scotland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKM3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>South Western Scotland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKM5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>North Eastern Scotland</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKM6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Highlands and Islands</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>NORTHERN IRELAND</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UKN0</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Northern Ireland</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+    =========================================================
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ===== Códigos definidos a partir de los requisitos de Gobernanza ===== -->
+		<!-- ===== Defined codes on governance requirements ===== -->
+		<ShortName>AwardingCriteriaNotAutomaticallyEvaluatedSubTypeCode</ShortName>
+		<LongName xml:lang="en">Awarding Criteria Not Automatically Evaluated SubType Code</LongName>
+		<LongName xml:lang="es">Códigos identificativos de los subtipos de critérios no cuantificables automáticamente</LongName>
+		<Version>2.09</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:AwardingCriteriaNotAutomaticallyEvaluatedSubTypeCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:AwardingCriteriaNotAutomaticallyEvaluatedSubTypeCode-2.09</CanonicalVersionUri>
+		<LocationUri>http://contrataciondelestado.es/codice/cl/2.09/AwardingCriteriaNotAutomaticallyEvaluatedSubTypeCode-2.09.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" xml:lang="es"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" xml:lang="en"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>01</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Medioambiental</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Environmentally friendly</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>02</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Social</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Social</SimpleValue>
+			</Value>
+		</Row>
+			<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>03</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Innovaci&#243;n</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Innovation</SimpleValue>
+			</Value>
+		</Row>
+
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>99</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Otros</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Others</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

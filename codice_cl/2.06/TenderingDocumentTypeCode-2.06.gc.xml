@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+
+		  CODICE2 Genericode File TenderingDocumentTypeCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>TenderingDocumentTypeCode</ShortName>
+    <LongName>Codigos de Documentos Publicados</LongName>
+    <Version>2.06</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:TenderingDocumentTypeCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:TenderingDocumentTypeCode-2.06</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_DESC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento Descriptivo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_PIN_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio Previo publicado en DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_PIN_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de Anuncio Previo al BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_PIN_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio Previo publicado en BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_PIN_PLACE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio Previo publicado en Plataforma</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_CN_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio de Licitaci&#243;n publicado en DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_CN_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de Anuncio de Licitaci&#243;n al BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_CN_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio de Licitaci&#243;n publicado en BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_CN_PLACE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anuncio de Licitaci&#243;n publicado en Plataforma</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_CD_PLACE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Pliegos publicado en Plataforma</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_CAN_PROV_PLACE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Adjudicaci&#243;n Provisional publicado en Plataforma</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_CAN_DEF_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Adjudicaci&#243;n Definitiva publicado en DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_CAN_DEF_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de Documento de Adjudicaci&#243;n Definitiva al BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_CAN_DEF_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Adjudicaci&#243;n Definitiva publicado en BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_CAN_DEF_PLACE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Adjudicaci&#243;n Definitiva publicado en Plataforma</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_PIN_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de Anuncio Previo al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_CN_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de Anuncio de Licitaci&#243;n al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_CAN_PROV_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de Anuncio de Adjudicaci&#243;n Provisional al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ACTA_ADJ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Acta de Resoluci&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ACTA_ADM_EXCL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Acta de Admisi&#243;n Exclusi&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_PPT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Pliego de Prescripciones T&#233;cnicas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_PCAP</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Pliego de Cl&#225;usulas Administrativas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DOC_ADD_CD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento Adicional de Pliegos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITEM_SPEC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Especificaci&#243;n de Producto</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ITEM_DESC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de Descripci&#243;n de Producto</SimpleValue>
+      </Value>
+    </Row>
+<Row><Value ColumnRef="code"><SimpleValue>LINK_EXP_PLACE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Link to Expedient Buyer Profile</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de detalle del Expediente publicado en la Plataforma</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ODS_PUB_CN_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Contract Notice published in OJEU for Dinamic Systems</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio de Licitaci&#243;n publicado en DOUE para Establecimiento de un Sistema Din&#225;mico</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ACTA_FORM</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Documento de Acta de Formalizaci&#243;n</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento de Acta de Formalizaci&#243;n</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_ATPV_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Submission of VEAT to OJEU</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio de Transparencia Previa Voluntaria al DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_ATPV_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>VEAT Notice published in OJEU</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Publicaci&#243;n del Anuncio de Transparencia Previa Voluntaria al DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>DOC_COM_REQDOC</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Informaci&#243;n adicional en las comunicaciones de requerimiento de documentaci&#243;n</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Informaci&#243;n adicional en las comunicaciones de requerimiento de documentaci&#243;n</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>DOC_COM_ADJ</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Informaci&#243;n adicional en las comunicaciones de adjudicaci&#243;n</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Informaci&#243;n adicional en las comunicaciones de adjudicaci&#243;n</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_ORIGINAL_CN_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Original Contract Notice published in OJEU</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio de Licitaci&#243;n Original publicado en DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_ORIGINAL_PIN_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Original Prior Information Notice published in OJEU</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio Previo Original publicado en DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_ORIGINAL_FORM_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Original Formalization Notice published in OJEU</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio de Formalizaci&#243;n Original publicado en DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_ORIGINAL_ATPV_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Original VEAT Notice published in OJEU</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>ATPV Original publicado en DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_PIN_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio Previo a Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_CN_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio de Licitaci&#243;n a Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_CAN_PROV_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio de Adjudicaci&#243;n Provisional a Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_CAN_DEF_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio de Adjudicaci&#243;n Definitiva a Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_FORM_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio de Formalizaci&#243;n a Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_PIN_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Publicaci&#243;n del Anuncio Previo en Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CN_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Publicaci&#243;n del Anuncio de Licitaci&#243;n en Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CAN_PROV_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Publicaci&#243;n del Anuncio de Adjudicaci&#243;n Provisional en Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_CAN_DEF_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Publicaci&#243;n del Anuncio de Adjudicaci&#243;n Definitiva en Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_ADJ_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio de Adjudicaci&#243;n a Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_ADJ_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Publicaci&#243;n de Anuncio de Adjudicaci&#243;n en Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_FORM_OTROS</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Publicaci&#243;n del Anuncio de Formalizaci&#243;n en Otros Diarios</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>DOC_COM_INV</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Documento Adicional de Comunicaciones de Invitacion a Licitar</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_CAN_DEF_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio de Adjudicaci&#243;n definitiva al DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_FORM_BOE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio de Formalizaci&#243;n al BOE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>ENVIO_FORM_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Env&#237;o de Anuncio de Formalizaci&#243;n al DOUE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_FORM_BOE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio de Formalizaci&#243;n publicado en BOE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>PUB_FORM_DOUE</SimpleValue></Value><Value ColumnRef="name"><SimpleValue></SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Anuncio de Formalizaci&#243;n publicado en DOUE</SimpleValue></Value></Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NOTICE_CANCELLATION</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento motivo de anulaci&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_PIN_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de Anuncio Previo al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_CN_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de Anuncio de Licitaci&#243;n al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_ATPV_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de ATPV al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_FORM_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de Anuncio de Formalizaci&#243;n al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_PIN_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de Anuncio Previo publicada en DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_CN_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de Anuncio de Licitaci&#243;n publicada en DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_ATPV_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de ATPV publicada en DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_FORM_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de Anuncio de Formalizaci&#243;n publicada en DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_PIN_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de Anuncio Previo al BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_CN_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de Anuncio de Licitaci&#243;n al BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_FORM_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de Anuncio de Formalizaci&#243;n al BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_PIN_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de Anuncio Previo publicada en BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_CN_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de Anuncio de Licitaci&#243;n publicada en BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_FORM_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de Anuncio de Formalizaci&#243;n publicada en BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_PIN_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de Anuncio Previo a Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_CN_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de Anuncio de Licitaci&#243;n a Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_FORM_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de Anuncio de Formalizaci&#243;n a Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_PIN_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de Anuncio Previo publicada en Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_CN_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de Anuncio de Licitaci&#243;n publicada en Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_FORM_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de Anuncio de Formalizaci&#243;n publicada en Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_ANUL_DESIERTO_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Env&#237;o de anulaci&#243;n de desierto al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_ANUL_DESIERTO_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anulaci&#243;n de desierto publicada en DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_DESIERTO_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Desierto al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_DESIERTO_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Publicación de Desierto en el DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_DESIERTO_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Desierto al BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_DESIERTO_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Publicación de Desierto en el BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_DESIERTO_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Desierto a Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_DESIERTO_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Publicación de Desierto en Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_RENUNCIA_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Renuncia al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_RENUNCIA_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Publicación de Renuncia en el DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_RENUNCIA_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Renunca al BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_RENUNCIA_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Publicación de Renuncia en el BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_RENUNCIA_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Renuncia a Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_RENUNCIA_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Publicación de Renuncia en Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_DESISTIMIENTO_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Desistimiento al DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_DESISTIMIENTO_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Publicación de Desistimiento en el DOUE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_DESISTIMIENTO_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Desistimiento al BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_DESISTIMIENTO_BOE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Publicación de Desistimiento en el BOE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_DESISTIMIENTO_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Desistimiento a Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PUB_DESISTIMIENTO_OTROS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Publicación de Desistimiento a Otros Diarios</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CONTRACT_MODIFICATION</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento adicional modificación del contrato</SimpleValue>
+      </Value>
+    </Row>
+    
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LINK_EXP_FRAMEWORKAGREEMENT_PLACE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Documento de detalle del Establecimiento de Acuerdo Marco publicado en la Plataforma</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ENVIO_MODCON_DOUE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Envío de Modificación de Contrato al DOUE</SimpleValue>
+      </Value>
+    </Row>   
+    
+</SimpleCodeList>
+</gc:CodeList>

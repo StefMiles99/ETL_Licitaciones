@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File ProcessJustificationReasonCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>ProcessJustificationReasonCode</ShortName>
+    <LongName>Códigos de justificación del proceso</LongName>
+    <Version>2.0</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:ProcessJustificationReasonCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:ProcessJustificationReasonCode-2.05</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.05/ProcessJustificationReasonCode-2.05.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+<Row><Value ColumnRef="code"><SimpleValue>a1</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>in the event of irregular tenders or the submission of tenders which are unacceptable under national provisions compatible with Articles 4, 24, 25, 27 and Chapter VII, in response to an open procedure insofar as the original terms of the contract are not substantially altered.</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>No se ha presentado ninguna oferta a un procedimiento abierto</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>a2</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>in the event of irregular tenders or the submission of tenders which are unacceptable under national provisions compatible with Articles 4, 24, 25, 27 and Chapter VII, in response to a restricted procedure insofar as the original terms of the contract are not substantially altered.</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>No se ha presentado ninguna oferta a un procedimiento restringido</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>b</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>when the nature of the works, supplies, or services or the risks attaching thereto do not permit prior overall pricing</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Productos con fines de investigación, experimentación, estudio o desarrollo</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>c1</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>when, for technical  reasons, the contract may be awarded only to a particular economic operator;</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Proveedor único por razones técnicas</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>c2</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>when, for artistic reasons,the contract may be awarded only to a particular economic operator;</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Proveedor único por razones artísticas</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>c3</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>when for reasons connected with the protection of exclusive rights, the contract may be awarded only to a particular economic operator;</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Proveedor único por razones de protección de derechos exclusivos</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>d</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>insofar as is strictly necessary when, for reasons of extreme urgency brought about by events unforeseeable by the contracting authorities in question, the time limit for the open, restricted or negotiated procedures with publication of a contract notice as referred to in Article 30 cannot be complied with</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Situación de extrema urgencia</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>e</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>when the products involved are manufactured purely for the purpose of research, experimentation, study or development; this provision does not extend to quantity production to establish commercial viability or to re- cover research and development costs;</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Se solicitan obras/suministros/servicios adicionales</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>f</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>for new works or services consisting in the repetition of similar works or services entrusted to the economic operator to whom the same contracting authorities awarded an original contract, provided that such works or services are in conformity with a basic project for which the original contract was awarded according to the open or restricted procedure.</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Nuevos servicios/obras que consisten en la repetición de otros similares</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>g</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>for public service contracts, when the contract concerned follows a design contest and must, under the applicable rules, be awarded to the successful candidate or to one of the successful candidates, in the latter case, all successful candidates must be invited to participate in the negotiations</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Adjudicado al ganador de un concurso de proyectos</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>h</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>for supplies quoted and purchased on a commodity market;</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Suministros cotizados y comprados en una bolsa de materias primas</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>i1</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>for the purchase of supplies on particularly advantageous terms, from  a supplier which is definitively winding up its business activities</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Condiciones ventajosas por proveedor que cesa definitivamente su actividad</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>i2</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>for the purchase of supplies on particularly advantageous terms, from the receivers or liquidators of a bankruptcy, an arrangement with cred- itors, or a similar procedure under national laws or regulations;</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Condiciones ventajosas por quiebra, o en virtud de un concordato judicial</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>j</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>when no tenders or no suitable tenders or no applications have been submitted in response to an open procedure or a restricted procedure, provided that the initial conditions of contract are not substantially al- tered and on condition that a report is sent to the Commission if it so request</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Todas las ofertas presentaban irregularidades o eran inaceptables</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>k</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>purpose of the contract are services defined in Annex II B of the Directive</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Servicios enumerados en el anexo II B de la Directiva</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>l</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Contract out of scope from the Directive</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>El contrato no entra en el ámbito de aplicación de la Directiva</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>c4</SimpleValue></Value><Value ColumnRef="name"><SimpleValue> protection of intellectual property rights and exclusive rights other than those defined in point (10) of Article 5 of the Directive</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Protección de derecho de propiedad intelectual e industrial y derechos exclusivos distintos además de los definidos en el artículo 5, punto 10 de la Directiva 2014/23/UE</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>d1</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>The periods ... are incompatible with the urgency resulting from a crisis.</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Los períodos previstos para el procedimiento restringido y el procedimiento negociado con publicación previa de un anuncio de licitación son incompatibles con la urgencia resultante de una crisis</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>i3</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>New works/services, constituing a repetition of existing works/services and ordered in accordance with…</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Compra de ocasión, aprovechando una oportunidad especialmente ventajosa existente durante un período de tiempo muy breve a un precio considerablemente inferior al del mercado</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>i4</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>Contract related to the provision of air and maritime transport services ....</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>Contrato relativo al suministro de servicios de transporte aéreo y marítimo para las fuerzas armadas de un Estado miembro, desplegadas o que se desplegarán en el exterior, con arreglo a las condiciones estrictas establecidas en la Directiva</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>a3</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>No tenders or no suitable tenders / requests to participate in response to a procedure with prior call for competition</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>No se han presentado ofertas u ofertas/solicitudes de participación adecuadas en respuesta a un procedimiento con convocatoria de licitación previa</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>a4</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>All tenders submitted in reply to an open procedure, restricted procedure or competitive dialogue were irregular or inacceptable…</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>No se han presentado ofertas u ofertas/solicitudes de participación adecuadas en respuesta a un procedimiento negociado con publicación previa de un anuncio de licitación</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>a5</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>No tenders or no appropriate tenders in response to Competitive dialogue</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>No se han presentado ofertas u ofertas/solicitudes de participación adecuadas en respuesta a un Diálogo competitivo</SimpleValue></Value></Row>
+<Row><Value ColumnRef="code"><SimpleValue>b1</SimpleValue></Value><Value ColumnRef="name"><SimpleValue>The contract concerns research and development services other than those referred to in Article 13 ....</SimpleValue></Value><Value ColumnRef="nombre"><SimpleValue>El contrato se refiere a servicios de investigación y desarrollo distintos de los mencionados en el artículo 13 de la Directiva 2009/81/CE -únicamente en el caso de los servicios y de los suministros</SimpleValue></Value></Row>
+  </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+     =========================================================
+     -->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ===== Codigos de estados de licitación definidos por la DGPE  ===== -->
+		<!-- ===== Expedient stutus codes defined by the Spanish DGPE ===== -->
+		<ShortName>ContractFolderStatusCode</ShortName>
+		<LongName xml:lang="en">Contract Folder Status</LongName>
+		<LongName xml:lang="es">Estados de licitaciones.</LongName>
+		<LongName Identifier="listID">DGPE 64</LongName>
+		<Version>2.03</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:ContractFolderStatusCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:ContractFolderStatusCode-2.03</CanonicalVersionUri>
+		<LocationUri>https://contrataciondelestado.es/codice/cl/2.03/ContractFolderStatusCode-2.03.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" xml:lang="es"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>CREA</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Creada</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PRE</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Anuncio Previo</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PUB</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Publicada</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>EV_PRE</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Evaluación Previa</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>EV_PRE_DEF</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Evaluación Previa</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>EV</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Evaluación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>EV_DEF</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Evaluación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>ADJ_PAR</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Parcialmente Adjudicada</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>ADJ</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Adjudicada</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PAR_RES</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Resolución Provisional</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>RES_PAR</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Parcialmente Resuelta</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>RES</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Resuelta</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>ANUL</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Anulada</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>CERR</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Cerrada</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

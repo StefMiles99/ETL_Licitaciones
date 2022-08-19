@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   =========================================================
+   
+   Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+   
+   =========================================================
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>UnitOfMeasureCode</ShortName>
+      <LongName xml:lang="en">Unit Of Measure</LongName>
+      <LongName xml:lang="es">Unidades de Medida</LongName>
+      <LongName Identifier="listID">DGPE 35</LongName>
+      <Version>2007</Version>
+      <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:UnitOfMeasureCode</CanonicalUri>
+      <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:UnitOfMeasureCode-1.04</CanonicalVersionUri>
+      <LocationUri>http://contrataciondelestado.es/codice/cl/1.04/UnitOfMeasureCode-1.04.gc</LocationUri>
+      <Agency>
+         <LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Type="normalizedString" xml:lang="en"/>
+      </Column>
+      <Column Id="name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Type="string" xml:lang="en"/>
+      </Column>
+      <Column Id="nombre" Use="optional">
+         <ShortName>Nombre</ShortName>
+         <Data Type="string" xml:lang="en"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>CodeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>1</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Hectarea</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Hectarea</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>2</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Kilometro</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Kilometro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>3</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Metro</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Metro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>4</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Centimetro</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Centimetro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>5</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Tonelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Tonelada</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>6</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Kilogramo</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Kilogramo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>7</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Gramo</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Gramo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>8</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Hectometro</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Hectometro</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>9</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Metro Cubico</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Metro Cubico</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>10</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Unidades</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Unidades</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>11</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Decenas</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Decenas</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>12</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Docenas</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Docenas</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>13</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Miles</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Miles</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>14</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Millones</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Millones</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>15</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Billones</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Billones</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

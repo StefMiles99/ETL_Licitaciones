@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+     =========================================================
+     -->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ===== Codigos de Documentos generales definidos por la DGPE  ===== -->
+		<!-- ===== General Contract Documents defined by the Spanish DGPE ===== -->
+		<ShortName>GeneralContractDocuments</ShortName>
+		<LongName xml:lang="en">General Contract Documents</LongName>
+		<LongName xml:lang="es">Codigos de Documentos generales.</LongName>
+		<LongName Identifier="listID">DGPE 59</LongName>
+		<Version>2.07</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:GeneralContractDocuments</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:GeneralContractDocuments-2.07</CanonicalVersionUri>
+		<LocationUri>http://contrataciondelestado.es/codice/cl/2.07/GeneralContractDocuments-2.07.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" xml:lang="es"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>1</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Informative public events or for opening tenders</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Actos públicos informativos ó de apertura de ofertas</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>2</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Composition of the jury</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Composición de la mesa de contratación</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>3</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Composition of the expert committee</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Composición del comité de expertos</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Stay of proceedings</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Suspensión del procedimiento</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>5</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Lifting the stay of proceedings</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Levantamiento de la suspensión del procedimiento</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>6</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Maintenance of the effects of contract</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Mantenimiento de los efectos del contrato</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>7</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Declaration of invalidity</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Declaración de nulidad</SimpleValue>
+			</Value>
+		</Row>
+
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>ZZZ</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Other Documents</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Otros documentos</SimpleValue>
+			</Value>
+		</Row>
+				<!--Nuevos valores v.2.07-->
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>8</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Procurement procedure initiation agreement</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Acuerdo de iniciación del expediente</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>9</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Justification of resources</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Memoria justificativa</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>10</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Unavailable resources report</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Informe de insuficiencia de medios</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>11</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Procurement procedure approval Document</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Documento de aprobación del expediente</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>12</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Evaluation party minutes</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Acta del órgano de asistencia</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>13</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Qualitative awarding criteria evaluation report</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Informe de valoración de los criterios de adjudicación cuantificables mediante juicio de valor</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>14</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Abnormally low tenders report</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Informe sobre las ofertas incursas en presunción de anormalidad</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>15</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Design contest jury</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Composición del jurado del concurso de proyectos</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

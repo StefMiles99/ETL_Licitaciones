@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File DeclarationTypeCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Identification>
+		<ShortName>DeclarationTypeCode</ShortName>
+		<LongName>C&#243;digo de Tipo de Declaraci&#243;n </LongName>
+		<Version>2.08</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:DeclarationTypeCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:DeclarationTypeCode-2.08</CanonicalVersionUri>
+		<LocationUri>http://contrataciondelestado.es/codice/cl/2.08/DeclarationTypeCode-2.08.gc</LocationUri>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" Lang="es"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" Lang="en"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>1</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Capacidad de obrar</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Legal capacity to act</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>2</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No prohibici&#243;n para contratar</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>No prohibition to establish contracts</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>3</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No estar incurso en incompatibilidades</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>No incompatibilities</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>4</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Cumplimiento con las obligaciones con la Seguridad Social</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Fulfil the obligations with the Social Security</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>5</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Cumplimiento con las obligaciones tributarias</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Fulfil tax obligations</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>7</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>No haber sido adjudicatario de los contratos anteriores de direcci&#243;n y/o supervisi&#243;n de la obra.</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Have not been awarded of the previous contracts of management and/or supervision of the work.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>8</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Estar prerregistrado en el ROLECE, y declarar que no ha habido modificaciones en los datos registrados</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>To be prerregisterd in the National Registry and to declare that the registered data are updated.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>9</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Para las empresas extranjeras, declaraci&#243;n de sometimiento a la legislaci&#243;n espa&#241;ola.</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>For foreign tenderers, to declare the submission to the Spanish Laws.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>10</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Contratos reservados. Reservado a Centros Especiales de Empleo, o talleres protegidos</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Reserved Contracts. Reserved to Employment Special Centers or Protected WorkShops</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>11</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Contratos reservados. Reservado a programas de empleo protegido.</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Reserved Contract. Reserved to protected employment programs.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>12</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Preferencia para empresas con trabajadores con discapacidad</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Preference for tenderers with handicapped workers.</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>13</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Preferencia para empresas dedicadas a la promoci&#243;n e inserci&#243;n laboral de personas en situaci&#243;n de exclusi&#243;n social</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Preference for companies devoted to the promotion and labour insertion of people in situation of social exclusion</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>14</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Contrato reservado a una profesi&#243;n determinada</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Contract reserved to an specific profession</SimpleValue>
+			</Value>
+		</Row>		
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>16</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Reservado a talleres protegidos y operadores econ&#243;micos cuyo objetivo principal sea la integraci&#243;n social y profesional de personas discapacitadas o desfavorecidas</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Reserved for protected workshops and economic operators whose main objective is the social and professional integration of disabled or disadvantaged people</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>17</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Reservado a organizaciones que cumplan con las condiciones establecidas en el art. 77 de la Directiva 2014/24/UE o en el art. 94 de la Directiva 2014/25/UE</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Reserved for organizations that meet the conditions set out in article 77 of Directive 2014/24/EU or article 94 of Directive 2014/25/UE</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>

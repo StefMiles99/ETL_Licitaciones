@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File TenderingProcessCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>TenderingProcessCode</ShortName>
+    <LongName>Tipos de Procedimientos de Contrataci&#243;n en el Sector P&#250;blico</LongName>
+    <Version>2.04</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:TenderingProcessCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:TenderingProcessCode-2.04</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.04/TenderingProcessCode-2.04.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>100</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Normas Internas</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Internal rules</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>1</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Abierto</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Open</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>2</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Restringido</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Restricted</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>3</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Negociado sin publicidad</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Negotiated without publicity</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>4</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Negociado con publicidad</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Negotiated with publicity</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>5</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Di&#225;logo competitivo</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Competitive Dialogue</SimpleValue>
+      </Value>
+    </Row>
+     <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>6</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Contrato Menor</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Contrato Menor</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

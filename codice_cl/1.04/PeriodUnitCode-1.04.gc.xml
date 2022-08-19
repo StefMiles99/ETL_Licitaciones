@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+   =========================================================
+   
+   Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+   
+   =========================================================
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>PeriodUnitCode</ShortName>
+      <LongName xml:lang="en">Unit Of Period</LongName>
+      <LongName xml:lang="es">Unidades de medir los periodos</LongName>
+      <LongName Identifier="listID">DGPE 32</LongName>
+      <Version>2007</Version>
+      <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:PeriodUnitCode</CanonicalUri>
+      <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:PeriodUnitCode-1.04</CanonicalVersionUri>
+      <LocationUri>http://contrataciondelestado.es/codice/cl/1.04/PeriodUnitCode-1.04.gc</LocationUri>
+      <Agency>
+         <LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Type="normalizedString" xml:lang="en"/>
+      </Column>
+      <Column Id="name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Type="string" xml:lang="en"/>
+      </Column>
+      <Column Id="nombre" Use="optional">
+         <ShortName>Nombre</ShortName>
+         <Data Type="string" xml:lang="es"/>
+      </Column>
+      <Key Id="codeKey">
+         <ShortName>CodeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DAY</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Day</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Día</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>MON</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Month</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Mes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ANN</SimpleValue>
+         </Value>
+         <Value ColumnRef="name">
+            <SimpleValue>Year</SimpleValue>
+         </Value>
+         <Value ColumnRef="nombre">
+            <SimpleValue>Año</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

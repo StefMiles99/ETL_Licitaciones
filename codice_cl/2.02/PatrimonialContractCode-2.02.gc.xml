@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+		  CODICE2 Genericode File PatrimonialContractCode
+          Direccion General del Patrimonio del Estado
+-->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>PatrimonialContractCode</ShortName>
+    <LongName>Subtipos de contratos patrimoniales</LongName>
+    <Version>2.02</Version>
+    <CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:PatrimonialContractCode</CanonicalUri>
+    <CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:PatrimonialContractCode-2.02</CanonicalVersionUri>
+    <LocationUri>http://contrataciondelestado.es/codice/cl/2.02/PatrimonialContractCode-2.02.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>10</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Autorizaci&#243;n demanial</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Government property authorization</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>11</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Concesi&#243;n demanial</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Government property concession</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>20</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explotaci&#243;n de bienes inmuebles mediante arrendamiento</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Exploitation of immovable property by leasing</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>21</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explotaci&#243;n de bienes muebles mediante arrendamiento</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Exploitation of movable by leasing</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>22</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Explotaci&#243;n de bienes de propiedad incorporal</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Exploitation of intangible property assets</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>23</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cesi&#243;n de uso/titularidad</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Surrender of use / ownership</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>30</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Adquisici&#243;n de inmuebles</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Acquisition of properties</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>31</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Adquisici&#243;n de derechos de propiedad incorporal</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Acquisition of intangible property rights</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>40</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Arrendamiento de inmuebles</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Rental of buildings</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>50</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Enajenaci&#243;n de inmuebles</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Disposal of property</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>51</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Enajenaci&#243;n de bienes muebles</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Alienation of movable</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>52</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Enajenaci&#243;n de derechos de propiedad incorporal</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Disposal of intangible property rights</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>60</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Permuta</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Swap</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>100</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Otros contratos patrimoniales</SimpleValue>
+      </Value>
+      <Value ColumnRef="name">
+        <SimpleValue>Other patrimonial contracts</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

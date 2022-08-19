@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+     =========================================================
+     -->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ===== Codigos de respuesta para publicaciones oficiales por B2B definidos por la DGPE  ===== -->
+		<!-- ===== B2B official publications response codes defined by the Spanish DGPE ===== -->
+		<ShortName>PLACE_OffPubResponseCode</ShortName>
+		<LongName xml:lang="en">Official Publications Respose Codes</LongName>
+		<LongName xml:lang="es">Códigos de respuesta de diarios oficiales.</LongName>
+		<LongName Identifier="listID">DGPE 67</LongName>
+		<Version>2.03</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:PLACE_OffPubResponseCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:PLACE_OffPubResponseCode-2.03</CanonicalVersionUri>
+		<LocationUri>https://contrataciondelestado.es/codice/cl/2.03/PLACE_OffPubResponseCode-2.03.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Direccion General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" xml:lang="es"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>OK</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>OK</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0020</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>BOE No disponible</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0030</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>DOUE No disponible</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0080</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error de publicación en el BOE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PLACE0081</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Error de publicación en el DOUE</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>OK-SinCambios</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>OK-Sin cambios</SimpleValue>
+			</Value>
+		</Row>
+</gc:CodeList>

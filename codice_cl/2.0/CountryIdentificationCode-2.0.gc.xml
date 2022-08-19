@@ -1,0 +1,1934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+		  CODICE2 Genericode File CountryIdentificationCode
+          Direccion General del Patrimonio del Estado
+		  
+
+     -->
+<gc:CodeList xsi:schemaLocation="http://docs.oasis-open.org/codelist/ns/genericode/1.0/ http://docs.oasis-open.org/codelist/cs-genericode-1.0/xsd/genericode.xsd" xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identification>
+    <ShortName>CountryIdentificationCode</ShortName>
+    <LongName>Pa&#237;ses</LongName>
+    <Version>0.3</Version>
+    <CanonicalUri>urn:oasis:names:specification:ubl:codelist:gc:CountryIdentificationCode</CanonicalUri>
+    <CanonicalVersionUri>urn:oasis:names:specification:ubl:codelist:gc:CountryIdentificationCode-0.3</CanonicalVersionUri>
+    <LocationUri>http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc</LocationUri>
+  </Identification>
+  <ColumnSet>
+    <Column Id="code" Use="required">
+      <ShortName>Code</ShortName>
+      <Data Type="normalizedString"/>
+    </Column>
+    <Column Id="nombre" Use="optional">
+      <ShortName>Nombre</ShortName>
+      <Data Type="string" Lang="es"/>
+    </Column>
+    <Column Id="name" Use="optional">
+      <ShortName>Name</ShortName>
+      <Data Type="string" Lang="en"/>
+    </Column>
+    <Key Id="codeKey">
+      <ShortName>CodeKey</ShortName>
+      <ColumnRef Ref="code"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Austria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>B&#233;lgica</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bulgaria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Suiza</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Chipre</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica Checa</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Alemania</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dinamarca</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>EE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estonia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ES</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Espa&#241;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Finlandia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Francia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Grecia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Croacia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hungr&#237;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Irlanda</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islandia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Italia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Liechtenstein</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lituania</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Luxemburgo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LV</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Letonia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Malta</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pa&#237;ses Bajos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Noruega</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Polonia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Portugal</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ruman&#237;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Suecia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Eslovenia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Eslovaquia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Turqu&#237;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Reino Unido</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Andorra</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Emiratos &#193;rabes Unidos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Afganist&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Antigua y Barbuda</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Anguila</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Albania</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Armenia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Antillas Neerlandesas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Angola</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AQ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ant&#225;rtida</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Argentina</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Samoa Americana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Australia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AW</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Aruba</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>AZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Azerbaiy&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bosnia y Herzegovina</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BB</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Barbados</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bangladesh</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Burkina Faso</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bahr&#233;in</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Burundi</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BJ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ben&#237;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bermudas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Brun&#233;i Darussalam</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bolivia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Brasil</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bahamas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Bhut&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BW</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Botsuana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Belar&#250;s</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>BZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Belice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Canad&#225;</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Cocos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica Democr&#225;tica del Congo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica Centroafricana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica del Congo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Costa de Marfil</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Cook</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Chile</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Camer&#250;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>China</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Colombia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Costa Rica</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cuba</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CV</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cabo Verde</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>CX</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Isla Christmas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DJ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Yibuti</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Dominica</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica Dominicana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>DZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Argelia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>EC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ecuador</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>EG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Egipto</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>EH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>S&#225;hara Occidental</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ER</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Eritrea</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ET</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Etiop&#237;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FJ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Fiyi</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Malvinas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estados Federados de Micronesia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>FO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Feroe</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gab&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Granada</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Georgia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guayana Francesa</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ghana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gibraltar</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Groenlandia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Gambia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guinea</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GP</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guadalupe</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GQ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guinea Ecuatorial</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Georgia del Sur e Islas Sandwich del Sur</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guatemala</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guam</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GW</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guinea-Bissau</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>GY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Guyana</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hong Kong</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Heard y McDonald</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Honduras</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>HT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Hait&#237;</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ID</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Indonesia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Israel</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>India</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Territorio Brit&#225;nico del Oc&#233;ano &#205;ndico</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IQ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Iraq</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>IR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica Isl&#225;mica de Ir&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>JM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Jamaica</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>JO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Jordania</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>JP</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Jap&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kenia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kirguist&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Camboya</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kiribati</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Comoras</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>San Crist&#243;bal y Nieves</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KP</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica de Corea</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica Popular Democr&#225;tica de Corea</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KW</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kuwait</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Caim&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>KZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Kazajst&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica Democr&#225;tica Popular de Laos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LB</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>L&#237;bano</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sri Lanka</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Liberia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Lesotho</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>LY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Yamahiriya &#193;rabe Libia Popular y Socialista</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Marruecos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>M&#243;naco</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica de Moldova</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ME</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Montenegro</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Madagascar</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Marshall</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Antigua Rep&#250;blica Yugoslava de Macedonia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ML</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mal&#237;</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Myanmar</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mongolia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Macao</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MP</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Marianas del Norte</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MQ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Martinica</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mauritania</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Montserrat</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mauricio</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MV</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Maldivas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MW</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Malawi</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MX</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>M&#233;xico</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Malasia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>MZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mozambique</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Namibia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nueva Caledonia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>N&#237;ger</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Isla Norfolk</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nigeria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nicaragua</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NP</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nepal</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nauru</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Niue</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>NZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Nueva Zelanda</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>OM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Om&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Panam&#225;</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Per&#250;</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Polinesia Francesa</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pap&#250;a Nueva Guinea</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Filipinas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Pakist&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Pitcairn</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Puerto Rico</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Cisjordania y Franja de Gaza</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PW</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Palaos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>PY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Paraguay</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>QA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Qatar</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Reuni&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Serbia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Federaci&#243;n de Rusia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>RW</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ruanda</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Arabia Saud&#237;</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SB</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Salom&#243;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Seychelles</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sud&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Singapur</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SJ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Svalbard y Jan Mayen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sierra Leona</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>San Marino</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Senegal</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Somalia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SR</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Surinam</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ST</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Santo Tom&#233; y Pr&#237;ncipe</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SV</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>El Salvador</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica &#193;rabe Siria</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>SZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Suazilandia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas Turcas y Caicos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TD</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Chad</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Territorios Australes Franceses</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Togo</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TH</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tailandia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TJ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tayikist&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TK</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tokelau</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Timor Oriental</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Turkmenist&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>T&#250;nez</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TO</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tonga</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Trinidad y Tobago</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TV</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Tuvalu</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TW</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Taiw&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>TZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Rep&#250;blica Unida de Tanzania</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Ucrania</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Uganda</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas menores alejadas de los Estados Unidos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>US</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Estados Unidos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UY</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Uruguay</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>UZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Uzbekist&#225;n</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>VA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Santa Sede (Estado de la Ciudad del Vaticano)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>VC</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>San Vicente y las Granadinas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>VE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Venezuela</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>VG</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas V&#237;rgenes Brit&#225;nicas</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>VI</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Islas V&#237;rgenes de los Estados Unidos</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>VN</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Vietnam</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>VU</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Vanuatu</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>WF</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Wallis y Futuna</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>WL</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Santa Luc&#237;a</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>WS</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Samoa</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>YE</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Yemen</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>YT</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Mayotte</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ZA</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Sud&#225;frica</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ZM</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Zambia</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="code">
+        <SimpleValue>ZW</SimpleValue>
+      </Value>
+      <Value ColumnRef="nombre">
+        <SimpleValue>Zimbabue</SimpleValue>
+      </Value>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>

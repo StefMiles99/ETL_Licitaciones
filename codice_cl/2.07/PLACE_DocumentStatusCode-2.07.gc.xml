@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    =========================================================
+
+    Lista de códigos definida por la DGPE en el marco del proyecto CODICE
+
+    =========================================================
+-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+	<Identification>
+		<!-- ===== Códigos de estados de anuncios y documentos generales definidos por la DGPE  ===== -->
+		<!-- ===== Advertisement and general document status codes defined by the Spanish DGPE ===== -->
+		<ShortName>PLACE_DocumentStatusCode</ShortName>
+		<LongName xml:lang="en">Document Status</LongName>
+		<LongName xml:lang="es">Estados de anuncios y documentos generales.</LongName>
+		<LongName Identifier="listID">DGPE 65</LongName>
+		<Version>2.07</Version>
+		<CanonicalUri>urn:dgpe:names:specification:codice:codelist:gc:PLACE_DocumentStatusCode</CanonicalUri>
+		<CanonicalVersionUri>urn:dgpe:names:specification:codice:codelist:gc:PLACE_DocumentStatusCode-2.07</CanonicalVersionUri>
+		<LocationUri>https://contrataciondelestado.es/codice/cl/2.07/PLACE_DocumentStatusCode-2.07.gc</LocationUri>
+		<Agency>
+			<LongName xml:lang="es">Dirección General del Patrimonio del Estado</LongName>
+		</Agency>
+	</Identification>
+	<ColumnSet>
+		<Column Id="code" Use="required">
+			<ShortName>Code</ShortName>
+			<Data Type="normalizedString" xml:lang="en"/>
+		</Column>
+		<Column Id="name" Use="optional">
+			<ShortName>Name</ShortName>
+			<Data Type="string" xml:lang="en"/>
+		</Column>
+		<Column Id="nombre" Use="optional">
+			<ShortName>Nombre</ShortName>
+			<Data Type="string" xml:lang="es"/>
+		</Column>
+		<Key Id="codeKey">
+			<ShortName>CodeKey</ShortName>
+			<ColumnRef Ref="code"/>
+		</Key>
+	</ColumnSet>
+	<SimpleCodeList>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>DOC_PUB</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Published</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Publicado</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>DOC_HIST</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Historical</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Histórico</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>DOC_ANUL</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Canceled</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Anulado</SimpleValue>
+			</Value>
+		</Row>
+		<Row>
+			<Value ColumnRef="code">
+				<SimpleValue>PEND_DOUE</SimpleValue>
+			</Value>
+			<Value ColumnRef="name">
+				<SimpleValue>Pending publication in DOUE</SimpleValue>
+			</Value>
+			<Value ColumnRef="nombre">
+				<SimpleValue>Pendiente de publicación en DOUE</SimpleValue>
+			</Value>
+		</Row>
+	</SimpleCodeList>
+</gc:CodeList>
